@@ -11,7 +11,7 @@ This package contains an OpenAI-backed version of the HybridRAG notebook.
 ## Setup
 
 ```bash
-pip install -r requirements_openai_hybridrag.txt
+pip install -r requirements.txt
 export OPENAI_API_KEY="sk-..."
 ```
 
