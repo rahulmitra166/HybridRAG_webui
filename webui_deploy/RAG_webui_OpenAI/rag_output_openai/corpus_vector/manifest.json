@@ -1,0 +1,10 @@
+{
+  "collection_name": "corpus_vector",
+  "chroma_dir": "rag_output_openai/corpus_vector/chroma_db",
+  "count": 14,
+  "paper_profile_chunks": "rag_output_openai/corpus_vector/paper_profile_chunks.jsonl",
+  "embedding_model": "text-embedding-3-large",
+  "embedding_dimensions": "model_default",
+  "provider": "openai",
+  "note": "Corpus-level VectorRAG for cross-paper comparison and routing."
+}

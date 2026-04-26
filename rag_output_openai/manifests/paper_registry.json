@@ -1,0 +1,32 @@
+[
+  {
+    "paper_stem": "mitra",
+    "file_name": "mitra.pdf",
+    "source_path": "myPDFs/mitra.pdf",
+    "title": "The Impact of the Feed Rate and the Binder Concentration on the Morphology of Spray-Dried Alumina–Polymer Nanocomposites",
+    "vector_dir": "rag_output_openai/mitra_vector",
+    "graph_dir": "rag_output_openai/mitra_graph",
+    "vector_collection_name": "mitra_vector",
+    "chroma_dir": "rag_output_openai/mitra_vector/chroma_db",
+    "vector_chroma_dir": "rag_output_openai/mitra_vector/chroma_db",
+    "vector_count": 229,
+    "graph_node_count": 164,
+    "graph_edge_count": 501,
+    "device_mode": "openai_api"
+  },
+  {
+    "paper_stem": "regolith",
+    "file_name": "regolith.pdf",
+    "source_path": "myPDFs/regolith.pdf",
+    "title": "Statistical Analysis and Modeling of the 3D Morphology and Texture of Lunar Regolith Simulants",
+    "vector_dir": "rag_output_openai/regolith_vector",
+    "graph_dir": "rag_output_openai/regolith_graph",
+    "vector_collection_name": "regolith_vector",
+    "chroma_dir": "rag_output_openai/regolith_vector/chroma_db",
+    "vector_chroma_dir": "rag_output_openai/regolith_vector/chroma_db",
+    "vector_count": 199,
+    "graph_node_count": 216,
+    "graph_edge_count": 671,
+    "device_mode": "openai_api"
+  }
+]

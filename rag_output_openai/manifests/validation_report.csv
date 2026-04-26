@@ -1,0 +1,3 @@
+paper_stem,file_name,vector_chunks,vector_units,vector_profile,vector_manifest,vector_chroma_dir,graph_json,graph_graphml,graph_nodes_csv,graph_edges_csv,graph_manifest,chunk_count,graph_nodes,graph_edges
+mitra,mitra.pdf,True,True,True,True,True,True,True,True,True,True,229,164,501
+regolith,regolith.pdf,True,True,True,True,True,True,True,True,True,True,199,216,671

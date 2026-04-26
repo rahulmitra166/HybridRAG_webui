@@ -1,0 +1,29 @@
+services:
+  open-webui:
+    image: ghcr.io/open-webui/open-webui:main
+    container_name: open-webui
+    ports:
+      - "3000:8080"
+    volumes:
+      - open-webui:/app/backend/data
+    restart: unless-stopped
+
+  pipelines:
+    image: ghcr.io/open-webui/pipelines:main
+    container_name: open-webui-pipelines
+    ports:
+      - "9099:9099"
+    environment:
+      - PIPELINES_API_KEY=${PIPELINES_API_KEY:-0p3n-w3bu!}
+      - PIPELINES_URLS=file:///app/pipelines/hybridrag_openai_pipeline.py
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - OPENAI_ANSWER_MODEL=${OPENAI_ANSWER_MODEL:-gpt-5.2}
+      - OPENAI_EMBEDDING_MODEL=${OPENAI_EMBEDDING_MODEL:-text-embedding-3-large}
+      - RAG_ROOT=/rag/rag_output_openai
+    volumes:
+      - ./pipelines:/app/pipelines
+      - ./RAG_webui_OpenAI/rag_output_openai:/rag/rag_output_openai:ro
+    restart: unless-stopped
+
+volumes:
+  open-webui:

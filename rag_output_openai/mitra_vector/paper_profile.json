@@ -1,0 +1,77 @@
+{
+  "title": "The Impact of the Feed Rate and the Binder Concentration on the Morphology of Spray-Dried Alumina–Polymer Nanocomposites",
+  "document_type": "Article",
+  "authors": [
+    "Rahul Mitra",
+    "Lukas Fuchs",
+    "Orkun Furat",
+    "Yannik Sinnwell",
+    "Sergiy Antonyuk",
+    "Volker Schmidt",
+    "Urs Alexander Peuker"
+  ],
+  "affiliations": [
+    "Institute of Mechanical Process Engineering and Minerals Processing, TU Bergakademie Freiberg, Agricola str. 1, 09599 Freiberg, Saxony, Germany",
+    "Institute of Stochastics, Ulm University, Helmholtzstr. 18, 89069 Ulm, Baden-Württemberg, Germany",
+    "Institute of Particle Process Engineering, University of Kaiserslautern-Landau (RPTU), Gottlieb-Daimler-Strasse 74, 67663 Kaiserslautern, Rhineland-Palatinate, Germany"
+  ],
+  "journal_or_venue": "Processes",
+  "publication_year": 2025,
+  "doi": "10.3390/pr13061643",
+  "abstract": "Spray-drying is a flexible method for creating fine porous composites with controlled size and morphology. This study investigates how the morphology and porosity of the spray-dried powder of nano-alumina and polyvinylpyrrolidone (PVP-30) granules are affected by both the feed rate and the binder concentration. Droplet size and velocity distributions, measured with a HiWatch system, showed that higher feed rates produce larger droplets with faster velocities, therefore affecting the final morphology of the dried product. The morphology of the dried granules was analyzed using inline SOPAT imaging. While mercury intrusion porosimetry quantified the nano-pore volume and nano-pore size of the granules, offline scanning electron microscopy (SEM) was also used to characterize the morphology of the dried product. The findings show that, while raising the binder concentration produces a more compact morphology with a lower nano-pore volume, higher feed rates produce larger granules with a larger nano-pore volume. This study offers fundamental insights that can support the future development of control strategies for optimizing the production of spray-dried porous alumina–polymer nanocomposites by means of knowledge about the relationship between these process parameters and product qualities.",
+  "keywords": [
+    "spray-drying",
+    "optimization",
+    "process–product relationship",
+    "polymer composite",
+    "particle technology",
+    "image processing",
+    "parametric stochastic modeling"
+  ],
+  "main_topics": [
+    "Spray-drying of alumina–polymer nanocomposites",
+    "Effects of feed rate and binder concentration on granule morphology",
+    "Granule porosity and nano-pore volume/size characterization",
+    "Inline and offline particle imaging for morphology analysis",
+    "Process–structure relationships and model-based process control"
+  ],
+  "methods": [
+    "Spray-drying a suspension of nano-alumina and PVP-30 in distilled water",
+    "Droplet size and velocity measurement using a HiWatch system",
+    "Inline SOPAT imaging for granule morphology analysis",
+    "Offline scanning electron microscopy (SEM) for morphology characterization",
+    "Mercury intrusion porosimetry to quantify pore volume and pore size",
+    "Parametric stochastic modeling (for interpretable process–product relationships)"
+  ],
+  "materials_or_datasets": [
+    "Spherical alumina powder (ASFP-20, Denka Co. Ltd., Tokyo, Japan)",
+    "Polyvinylpyrrolidone (PVP-30) binder",
+    "Distilled water (suspension medium)",
+    "Droplet size/velocity distributions (HiWatch measurements)",
+    "Inline granule images (SOPAT imaging system)",
+    "SEM images of raw and spray-dried material",
+    "Mercury intrusion porosimetry data (pore volume and pore size)"
+  ],
+  "results": [
+    "Higher feed rates produced larger droplets with faster velocities, affecting final dried-product morphology.",
+    "Increasing binder concentration produced a more compact granule morphology with lower nano-pore volume.",
+    "Higher feed rates produced larger granules with larger nano-pore volume."
+  ],
+  "conclusions": [
+    "Feed rate and binder concentration have distinct, systematic impacts on granule size, morphology, and nano-pore volume in spray-dried alumina–PVP nanocomposites.",
+    "Correlating inline morphology imaging with offline porosity characterization supports establishing process–structure relationships useful for future control strategies."
+  ],
+  "limitations": [
+    "The experimental investigation focused on two process parameters (feed rate and binder concentration) while other process parameters were held constant.",
+    "The study focus was on pore sizes roughly within the micro/meso/macropore range of interest (especially below about 200 nm)."
+  ],
+  "applications": [
+    "Optimization and control strategies for producing spray-dried porous alumina–polymer nanocomposites",
+    "Tailoring porous nanocomposites for catalysis, battery electrodes, and drug delivery",
+    "Supporting model-based control of spray-drying processes via interpretable process–product relationships"
+  ],
+  "summary": "The paper studies spray-drying of nano-alumina with PVP-30 to form alumina–polymer granules and quantifies how feed rate and binder concentration influence granule size, morphology, and porosity. Droplet size/velocity (HiWatch), inline granule imaging (SOPAT), SEM, and mercury intrusion porosimetry are combined to link atomization and process settings to product structure. Higher feed rate increases droplet size/velocity and yields larger, more porous granules, while higher binder concentration makes granules more compact and reduces nano-pore volume, providing a basis for process optimization and model-based control.",
+  "file_name": "mitra.pdf",
+  "paper_stem": "mitra",
+  "source_path": "myPDFs/mitra.pdf"
+}

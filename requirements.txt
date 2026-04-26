@@ -1,0 +1,16 @@
+openai>=1.0.0
+pymupdf
+pdfplumber
+pdfminer.six
+chromadb
+networkx
+pyvis
+pandas
+requests
+tqdm
+rapidfuzz
+pillow
+numpy
+pypdf
+pypdfium2
+lxml

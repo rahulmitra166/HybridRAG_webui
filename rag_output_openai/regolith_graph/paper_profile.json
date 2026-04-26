@@ -1,0 +1,73 @@
+{
+  "title": "Statistical Analysis and Modeling of the 3D Morphology and Texture of Lunar Regolith Simulants",
+  "document_type": "Original Article",
+  "authors": [
+    "Matthias Weber",
+    "Ralf Ditscherlein",
+    "Lisa Ditscherlein",
+    "Tehya Birch",
+    "Markus Franz",
+    "Achim Seidel",
+    "Urs A. Peuker",
+    "Orkun Furat",
+    "Volker Schmidt",
+    "Georg Pöhle"
+  ],
+  "affiliations": [
+    "Institute of Stochastics, Ulm University, Helmholtzstr. 18, Ulm 89081, Germany",
+    "Institute for Mechanical Process Engineering and Mineral Processing, TU Bergakademie Freiberg, Agricolastr. 1, Freiberg 09599, Germany",
+    "Airbus Defence and Space, Claude Dornier Str., Immenstaad 88090, Germany",
+    "Applied AI and Data Science Unit, University of Southern Denmark, Campusvej 55, Odense 5230, Denmark",
+    "Fraunhofer Institute for Manufacturing Technology and Advanced Materials IFAM, Winterbergstr. 28, Dresden 01277, Germany"
+  ],
+  "journal_or_venue": "Microscopy and Microanalysis",
+  "publication_year": 2026,
+  "doi": "10.1093/mam/ozag013",
+  "abstract": "Understanding the mechanical behavior of lunar regolith under low-g conditions is essential for processing regolith in the lunar environment. While well understood for many granular materials on Earth, these properties have yet to be studied for lunar regolith. For ground-based experimental investigation of regolith properties, simulants are used, which mimic certain physical or chemical aspects of lunar regolith. However, rheology is significantly influenced by particle size and shape, which has not yet been thoroughly characterized for lunar regolith particles. Moreover, it remains unclear how well common simulants approximate the morphology of lunar regolith particles. In this paper, we quantify the multivariate distributions of size and shape descriptors of actual lunar regolith particles and seven commonly used mare and highlands regolith simulants, using 3D tomographic image data obtained via micro computed tomography. Quantitative analysis confirms that there are large differences in morphology within regolith simulants and between simulants and lunar regolith. This highlights the need to develop regolith simulants with accurate morphologies for experimental investigations of mechanical properties. Alternatively, statistically representative digital models of lunar regolith can be used as input for numerical simulations, enabling simulation studies of morphology-driven mechanical behavior under lunar conditions. (regolith.pdf p.1)",
+  "keywords": [
+    "3D image data",
+    "X-ray micro-CT",
+    "regolith simulant",
+    "particle descriptor",
+    "parametric stochastic model"
+  ],
+  "main_topics": [
+    "3D morphology and texture characterization of lunar regolith simulants",
+    "Comparison of simulant particle morphology to actual lunar regolith",
+    "Multivariate distributions of particle size and shape descriptors",
+    "Parametric modeling of multivariate non-Gaussian descriptor vectors",
+    "Digital twin / stochastic 3D modeling for virtual materials testing and simulations"
+  ],
+  "methods": [
+    "3D tomographic imaging via micro computed tomography (X-ray micro-CT)",
+    "Quantification of size and shape descriptors from 3D image data",
+    "Multivariate statistical analysis of correlated morphological descriptors",
+    "Parametric models for multivariate non-Gaussian probability distributions of descriptor vectors",
+    "Comparative analysis across multiple mare and highlands simulants and lunar regolith samples"
+  ],
+  "materials_or_datasets": [
+    "3D X-ray micro-CT image data of actual lunar regolith particles (three different samples) (regolith.pdf p.1, p.2)",
+    "3D X-ray micro-CT image data of seven regolith simulants: CSM-LHT-1, OB1A, LHS-1 (highlands); JSC-1A, LMS-1, OPRL2N, CSM-LMT-1 (mare) (regolith.pdf p.1, p.2)"
+  ],
+  "results": [
+    "Large differences in particle morphology are observed both within regolith simulants and between simulants and actual lunar regolith. (regolith.pdf p.1)"
+  ],
+  "conclusions": [
+    "Commonly used regolith simulants show substantial morphological differences relative to lunar regolith, motivating development of simulants with more accurate particle morphologies for mechanical-property experiments. (regolith.pdf p.1)",
+    "Statistically representative digital models of lunar regolith morphology can serve as inputs for numerical simulations of morphology-driven mechanical behavior under lunar conditions. (regolith.pdf p.1)"
+  ],
+  "limitations": [
+    "Large-scale experimental investigations of lunar-regolith mechanical properties are currently unfeasible on the Moon, and reproducing lunar conditions on Earth requires elaborate setups (e.g., parabolic flights or drop towers). (regolith.pdf p.2)",
+    "Large quantities of lunar regolith are unavailable for mechanical experiments, and the applicability of existing simulants is questionable. (regolith.pdf p.2)",
+    "Particle-size and shape effects on regolith rheology have not yet been thoroughly characterized for lunar regolith particles. (regolith.pdf p.1)"
+  ],
+  "applications": [
+    "ISRU-related design and risk assessment via accurate morphology quantification for predicting regolith mechanical behavior. (regolith.pdf p.2)",
+    "Development and evaluation of regolith simulants for ground-based experiments. (regolith.pdf p.1)",
+    "Digital-twin and virtual materials testing workflows enabling numerical simulation studies of regolith handling under lunar conditions. (regolith.pdf p.1, p.2)"
+  ],
+  "summary": "The paper uses 3D X-ray micro-CT data and multivariate statistical/parametric modeling to quantify size and shape descriptor distributions for lunar regolith particles and seven mare/highlands simulants, finding large morphological differences among simulants and versus lunar regolith and motivating improved simulants or statistically representative digital models for simulation-based studies of morphology-driven mechanical behavior relevant to ISRU. (regolith.pdf p.1, p.2)",
+  "file_name": "regolith.pdf",
+  "paper_stem": "regolith",
+  "source_path": "myPDFs/regolith.pdf"
+}

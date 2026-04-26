@@ -1,0 +1,15 @@
+[
+  {
+    "paper_a": "mitra",
+    "paper_b": "regolith",
+    "file_a": "mitra.pdf",
+    "file_b": "regolith.pdf",
+    "title_a": "The Impact of the Feed Rate and the Binder Concentration on the Morphology of Spray-Dried Alumina–Polymer Nanocomposites",
+    "title_b": "Statistical Analysis and Modeling of the 3D Morphology and Texture of Lunar Regolith Simulants",
+    "similarity": 0.5188095884036283,
+    "shared_methods": [],
+    "shared_results_terms": [],
+    "shared_conclusion_terms": [],
+    "shared_topics": []
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "paper_stem": "regolith",
+  "file_name": "regolith.pdf",
+  "paper_profile": "rag_output_openai/regolith_vector/paper_profile.json",
+  "units": "rag_output_openai/regolith_vector/regolith_units.jsonl",
+  "chunks": "rag_output_openai/regolith_vector/regolith_chunks.jsonl",
+  "vector_dir": "rag_output_openai/regolith_vector",
+  "vector_collection_name": "regolith_vector",
+  "chroma_dir": "rag_output_openai/regolith_vector/chroma_db",
+  "vector_chroma_dir": "rag_output_openai/regolith_vector/chroma_db",
+  "vector_count": 199,
+  "embedding_model": "text-embedding-3-large",
+  "embedding_dimensions": "model_default",
+  "provider": "openai",
+  "device_mode": "openai_api",
+  "llm_learning_pack_note": "See <paper>_vector/llm_learning_pack/ for audit-ready extraction candidates.",
+  "note": "Per-paper VectorRAG bundle. Use retrieval at query time for grounded answers."
+}

@@ -1,0 +1,44 @@
+{
+  "pdf_dir": "myPDFs",
+  "out_dir": "rag_output_openai",
+  "generation_model_used_for_extraction": "gpt-5.2",
+  "embedding_model": "text-embedding-3-large",
+  "answer_model": "gpt-5.2",
+  "papers": [
+    {
+      "paper_stem": "mitra",
+      "file_name": "mitra.pdf",
+      "source_path": "myPDFs/mitra.pdf",
+      "title": "The Impact of the Feed Rate and the Binder Concentration on the Morphology of Spray-Dried Alumina–Polymer Nanocomposites",
+      "vector_dir": "rag_output_openai/mitra_vector",
+      "graph_dir": "rag_output_openai/mitra_graph",
+      "vector_collection_name": "mitra_vector",
+      "chroma_dir": "rag_output_openai/mitra_vector/chroma_db",
+      "vector_chroma_dir": "rag_output_openai/mitra_vector/chroma_db",
+      "vector_count": 229,
+      "graph_node_count": 164,
+      "graph_edge_count": 501,
+      "device_mode": "openai_api"
+    },
+    {
+      "paper_stem": "regolith",
+      "file_name": "regolith.pdf",
+      "source_path": "myPDFs/regolith.pdf",
+      "title": "Statistical Analysis and Modeling of the 3D Morphology and Texture of Lunar Regolith Simulants",
+      "vector_dir": "rag_output_openai/regolith_vector",
+      "graph_dir": "rag_output_openai/regolith_graph",
+      "vector_collection_name": "regolith_vector",
+      "chroma_dir": "rag_output_openai/regolith_vector/chroma_db",
+      "vector_chroma_dir": "rag_output_openai/regolith_vector/chroma_db",
+      "vector_count": 199,
+      "graph_node_count": 216,
+      "graph_edge_count": 671,
+      "device_mode": "openai_api"
+    }
+  ],
+  "corpus_vector_dir": "rag_output_openai/corpus_vector",
+  "corpus_graph_dir": "rag_output_openai/corpus_graph",
+  "finetune_export_dir": "rag_output_openai/finetune_exports",
+  "note": "For public-facing answers, do not rely on fine-tuning alone. Use the retrieval bundles at inference time for citations, freshness, and debuggability.",
+  "production_inference_flow": "per-paper retrieval first, corpus retrieval second, answer synthesis third, with automatic comparison mode"
+}

@@ -1,0 +1,18 @@
+{
+  "device_mode": "openai_api",
+  "pdf_count": 2,
+  "embedding_model": "text-embedding-3-large",
+  "generation_model": "gpt-5.2",
+  "answer_model": "gpt-5.2",
+  "embedding_dimensions": "model_default",
+  "provider": "openai",
+  "openai_reasoning_effort": "high",
+  "openai_text_verbosity": "low",
+  "embedding_cache_enabled": true,
+  "force_rebuild_all": true,
+  "force_rebuild_chroma": true,
+  "force_rebuild_graphs": true,
+  "kg_extraction_enabled": true,
+  "kg_chunk_limit": 8,
+  "pdf_extraction_workers": 4
+}

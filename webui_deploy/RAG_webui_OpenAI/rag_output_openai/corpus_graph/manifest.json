@@ -1,0 +1,7 @@
+{
+  "graph_dir": "rag_output_openai/corpus_graph",
+  "paper_similarity_json": "rag_output_openai/manifests/paper_similarity.json",
+  "node_count": 363,
+  "edge_count": 732,
+  "note": "Corpus-level GraphRAG for cross-paper comparison and shared-concept traversal."
+}

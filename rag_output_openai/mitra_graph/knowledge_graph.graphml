@@ -1,0 +1,3869 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d15" for="edge" attr.name="file_name" attr.type="string"/>
+<key id="d14" for="edge" attr.name="page" attr.type="string"/>
+<key id="d13" for="edge" attr.name="chunk_id" attr.type="string"/>
+<key id="d12" for="edge" attr.name="citations" attr.type="string"/>
+<key id="d11" for="edge" attr.name="confidence" attr.type="string"/>
+<key id="d10" for="edge" attr.name="evidence" attr.type="string"/>
+<key id="d9" for="edge" attr.name="description" attr.type="string"/>
+<key id="d8" for="edge" attr.name="type" attr.type="string"/>
+<key id="d7" for="node" attr.name="paper_stem" attr.type="string"/>
+<key id="d6" for="node" attr.name="relevance" attr.type="string"/>
+<key id="d5" for="node" attr.name="file_name" attr.type="string"/>
+<key id="d4" for="node" attr.name="pages" attr.type="string"/>
+<key id="d3" for="node" attr.name="citations" attr.type="string"/>
+<key id="d2" for="node" attr.name="description" attr.type="string"/>
+<key id="d1" for="node" attr.name="type" attr.type="string"/>
+<key id="d0" for="node" attr.name="label" attr.type="string"/>
+<graph edgedefault="directed"><node id="Paper:mitra">
+  <data key="d0">The Impact of the Feed Rate and the Binder Concentration on the Morphology of Spray-Dried Alumina–Polymer Nanocomposites</data>
+  <data key="d1">Document</data>
+  <data key="d2">The paper studies spray-drying of nano-alumina with PVP-30 to form alumina–polymer granules and quantifies how feed rate and binder concentration influence granule size, morphology, and porosity. Droplet size/velocity (HiWatch), inline granule imaging (SOPAT), SEM, and mercury intrusion porosimetry are combined to link atomization and process settings to product structure. Higher feed rate increases droplet size/velocity and yields larger, more porous granules, while higher binder concentration makes granules more compact and reduces nano-pore volume, providing a basis for process optimization and model-based control.</data>
+  <data key="d3">mitra.pdf</data>
+  <data key="d4"></data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">1.0</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Chunk:chunk_bb79271b66b555df">
+  <data key="d0">chunk_bb79271b66b555df</data>
+  <data key="d1">Chunk</data>
+  <data key="d2">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+  <data key="d3">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+  <data key="d4">16</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">1.0</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Document:doc_mitra_p16">
+  <data key="d0">doc_mitra_p16</data>
+  <data key="d1">Document</data>
+  <data key="d2">PDF chunk from Processes 2025 describing correlation analysis and predicted/fitted bivariate granule descriptor distributions.</data>
+  <data key="d3">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+  <data key="d4">16</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">1.0</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Variable:d_fmax">
+  <data key="d0">d_Fmax</data>
+  <data key="d1">Variable</data>
+  <data key="d2">Maximum Feret diameter descriptor used as a measure of granule size. | Symbol used for maximum Feret diameter.</data>
+  <data key="d3">mitra.pdf p.16 page_text chunk_bb79271b66b555df || mitra.pdf p.8 page_text chunk_9082cc6cb7d7ca45</data>
+  <data key="d4">16,8</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.9</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Variable:psi_a">
+  <data key="d0">Psi_A</data>
+  <data key="d1">Variable</data>
+  <data key="d2">Aspect ratio descriptor used as a measure of granule shape.</data>
+  <data key="d3">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+  <data key="d4">16</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.9</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Instrument:sopat">
+  <data key="d0">SOPAT</data>
+  <data key="d1">Instrument</data>
+  <data key="d2">Imaging source used to obtain per-granule maximum Feret diameter and aspect ratio values.</data>
+  <data key="d3">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+  <data key="d4">16</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.6</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Method:sopat_image_measurement">
+  <data key="d0">sopat_image_measurement</data>
+  <data key="d1">Method</data>
+  <data key="d2">Measurement of maximum Feret diameter and aspect ratio from SOPAT images.</data>
+  <data key="d3">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+  <data key="d4">16</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.7</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Concept:epcc">
+  <data key="d0">EPCC</data>
+  <data key="d1">Concept</data>
+  <data key="d2">Empirical Pearson correlation coefficient used to quantify linear correlation between two descriptors.</data>
+  <data key="d3">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+  <data key="d4">16</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.85</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Equation:eq_epcc_9">
+  <data key="d0">eq_EPCC_9</data>
+  <data key="d1">Equation</data>
+  <data key="d2">Equation defining EPCC(x,y) using sums over deviations from means.</data>
+  <data key="d3">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+  <data key="d4">16</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.85</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Variable:x_i">
+  <data key="d0">x_i</data>
+  <data key="d1">Variable</data>
+  <data key="d2">Per-granule variable representing the maximum Feret diameter of the i-th granule.</data>
+  <data key="d3">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+  <data key="d4">16</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.7</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Variable:y_i">
+  <data key="d0">y_i</data>
+  <data key="d1">Variable</data>
+  <data key="d2">Per-granule variable representing the aspect ratio of the i-th granule.</data>
+  <data key="d3">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+  <data key="d4">16</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.7</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Variable:x_mean">
+  <data key="d0">x_mean</data>
+  <data key="d1">Variable</data>
+  <data key="d2">Mean of x values used in the EPCC definition. | Variable x denoting the mean of the x_i values.</data>
+  <data key="d3">mitra.pdf p.16 equation_candidate chunk_1c86e251de2cb8bc || mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+  <data key="d4">16</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.5</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Variable:y_mean">
+  <data key="d0">y_mean</data>
+  <data key="d1">Variable</data>
+  <data key="d2">Mean of y values used in the EPCC definition. | Variable y denoting the mean of the y_i values.</data>
+  <data key="d3">mitra.pdf p.16 equation_candidate chunk_1c86e251de2cb8bc || mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+  <data key="d4">16</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.5</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Dataset:experiments_f_set">
+  <data key="d0">experiments_F_set</data>
+  <data key="d1">Dataset</data>
+  <data key="d2">Set of experiments referenced for EPCC evaluation and fitted densities (F1B2, F2B2, F3B2, F1B1, F1B3, F1B4).</data>
+  <data key="d3">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+  <data key="d4">16</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.65</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Finding:finding_no_linear_corr">
+  <data key="d0">finding_no_linear_corr</data>
+  <data key="d1">Finding</data>
+  <data key="d2">EPCC values close to zero indicate little to no linear correlation between maximum Feret diameter and aspect ratio in the listed experiments.</data>
+  <data key="d3">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+  <data key="d4">16</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.9</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Limitation:lim_independence_assumption">
+  <data key="d0">lim_independence_assumption</data>
+  <data key="d1">Limitation</data>
+  <data key="d2">Maximum Feret diameter and aspect ratio are assumed to be independent random variables for joint density modeling.</data>
+  <data key="d3">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+  <data key="d4">16</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.8</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Finding:finding_neglect_dependency">
+  <data key="d0">finding_neglect_dependency</data>
+  <data key="d1">Finding</data>
+  <data key="d2">Because size provides little information about shape, modeling of dependency between the descriptors is neglected for simplicity.</data>
+  <data key="d3">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+  <data key="d4">16</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.8</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Concept:joint_bivariate_densities">
+  <data key="d0">joint_bivariate_densities</data>
+  <data key="d1">Concept</data>
+  <data key="d2">Joint (bivariate) probability density distributions for maximum Feret diameter and aspect ratio.</data>
+  <data key="d3">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+  <data key="d4">16</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.75</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Method:fitted_parametric_densities">
+  <data key="d0">fitted_parametric_densities</data>
+  <data key="d1">Method</data>
+  <data key="d2">Fitting parametric probability densities to experiments and comparing with measured granule descriptors.</data>
+  <data key="d3">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+  <data key="d4">16</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.7</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Finding:finding_high_agreement">
+  <data key="d0">finding_high_agreement</data>
+  <data key="d1">Finding</data>
+  <data key="d2">Fitted parametric probability densities show high agreement with measured granule descriptors.</data>
+  <data key="d3">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+  <data key="d4">16</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.7</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Variable:feed_rate">
+  <data key="d0">feed_rate</data>
+  <data key="d1">Variable</data>
+  <data key="d2">Process parameter representing the feed rate (e.g., 11 mL min−1, 12.5 mL min−1). | Feed rate is a process parameter investigated for its influence on the atomization process. | Feed rate used as the process parameter in the F series. | Process parameter used to compare effects on granule size distribution and shape uniformity.</data>
+  <data key="d3">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37 || mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c || mitra.pdf p.16 page_text chunk_bb79271b66b555df || mitra.pdf p.9 page_text chunk_292a513b17ac9374</data>
+  <data key="d4">10,15,16,9</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.7</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Variable:binder_concentration">
+  <data key="d0">binder_concentration</data>
+  <data key="d1">Variable</data>
+  <data key="d2">Process parameter representing binder concentration (e.g., 0.8 wt%, 2.4 wt%). | Binder concentration is a process parameter investigated for its influence on the atomization process. | Binder concentration used as the process parameter in the B series. | Process parameter used to compare effects on granule size distribution and shape uniformity.</data>
+  <data key="d3">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37 || mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c || mitra.pdf p.16 page_text chunk_bb79271b66b555df || mitra.pdf p.9 page_text chunk_292a513b17ac9374</data>
+  <data key="d4">10,15,16,9</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.7</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Equation:theta_equals_g_of_z">
+  <data key="d0">theta_equals_g_of_z</data>
+  <data key="d1">Equation</data>
+  <data key="d2">Predicted model parameters expressed as a function of concentration z.</data>
+  <data key="d3">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+  <data key="d4">16</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.6</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Variable:z_concentration">
+  <data key="d0">z_concentration</data>
+  <data key="d1">Variable</data>
+  <data key="d2">Concentration variable z considered over the range [0.8, 3.2].</data>
+  <data key="d3">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+  <data key="d4">16</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.55</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Equation:eq_7_8_ref">
+  <data key="d0">eq_7_8_ref</data>
+  <data key="d1">Equation</data>
+  <data key="d2">Referenced equations used (with predicted model parameters) to acquire predictions for probability densities of granule descriptors.</data>
+  <data key="d3">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+  <data key="d4">16</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.45</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Method:prob_density_prediction">
+  <data key="d0">prob_density_prediction</data>
+  <data key="d1">Method</data>
+  <data key="d2">Prediction of probability densities of granule descriptors by inserting predicted model parameters into referenced equations.</data>
+  <data key="d3">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+  <data key="d4">16</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.65</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Chunk:chunk_895bf8c81d74ac37">
+  <data key="d0">chunk_895bf8c81d74ac37</data>
+  <data key="d1">Chunk</data>
+  <data key="d2">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+  <data key="d3">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+  <data key="d4">10</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">1.0</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Document:doc_mitra_p10">
+  <data key="d0">doc_mitra_p10</data>
+  <data key="d1">Document</data>
+  <data key="d2">PDF chunk from Processes 2025 describing likelihood-based parameter estimation, regression mapping from process parameters to distribution parameters, and droplet size/velocity analysis setup.</data>
+  <data key="d3">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+  <data key="d4">10</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.7</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Method:mle">
+  <data key="d0">mle</data>
+  <data key="d1">Method</data>
+  <data key="d2">Maximum likelihood estimation is used to determine optimal distribution parameter values by maximizing a likelihood function.</data>
+  <data key="d3">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+  <data key="d4">10</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.95</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Concept:likelihood_l">
+  <data key="d0">likelihood_L</data>
+  <data key="d1">Concept</data>
+  <data key="d2">The likelihood function L maps parameter vectors in Θ^n to real numbers and is maximized to estimate parameters.</data>
+  <data key="d3">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+  <data key="d4">10</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.95</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Equation:eq3_likelihood">
+  <data key="d0">eq3_likelihood</data>
+  <data key="d1">Equation</data>
+  <data key="d2">Equation (3) defines the likelihood as a product over i and x∈Ai of f_{θi}(x).</data>
+  <data key="d3">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+  <data key="d4">10</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.95</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Equation:eq4_argmax">
+  <data key="d0">eq4_argmax</data>
+  <data key="d1">Equation</data>
+  <data key="d2">Equation (4) defines (θ1*,…,θn*) as the argmax of L(θ1,…,θn) over Θ^n.</data>
+  <data key="d3">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+  <data key="d4">10</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.9</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Finding:parametric_family_selection">
+  <data key="d0">parametric_family_selection</data>
+  <data key="d1">Finding</data>
+  <data key="d2">When comparing multiple parametric families, the best fit is identified by the family yielding the highest maximized likelihood value.</data>
+  <data key="d3">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+  <data key="d4">10</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.85</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Concept:prob_density_f">
+  <data key="d0">prob_density_f</data>
+  <data key="d1">Concept</data>
+  <data key="d2">A probability density f is modeled for a descriptor under consideration using parameters θ in Θ.</data>
+  <data key="d3">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+  <data key="d4">10</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.8</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Descriptor:descriptor_under_consideration">
+  <data key="d0">descriptor_under_consideration</data>
+  <data key="d1">Descriptor</data>
+  <data key="d2">A descriptor is the quantity whose probability density is predicted and modeled.</data>
+  <data key="d3">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+  <data key="d4">10</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.6</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Variable:process_parameter_z">
+  <data key="d0">process_parameter_z</data>
+  <data key="d1">Variable</data>
+  <data key="d2">z is a process parameter in R used to predict distribution parameters for cases with no acquired data. | Process parameter z used as regression input (feed rate in F series; binder concentration in B series).</data>
+  <data key="d3">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37 || mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+  <data key="d4">10,15</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.85</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Method:regression_g">
+  <data key="d0">regression_g</data>
+  <data key="d1">Method</data>
+  <data key="d2">A parametric regression function g maps the process parameter z to a model parameter θ for the desired probability density.</data>
+  <data key="d3">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+  <data key="d4">10</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.9</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Variable:theta">
+  <data key="d0">theta</data>
+  <data key="d1">Variable</data>
+  <data key="d2">θ is a model parameter in Θ of the probability density, defined as θ = g(z).</data>
+  <data key="d3">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+  <data key="d4">10</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.9</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Method:linear_regression">
+  <data key="d0">linear_regression</data>
+  <data key="d1">Method</data>
+  <data key="d2">A linear regression function g(z)=a·z+b is used to map process parameters to distribution parameters.</data>
+  <data key="d3">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+  <data key="d4">10</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.9</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Equation:eq5_linear_g">
+  <data key="d0">eq5_linear_g</data>
+  <data key="d1">Equation</data>
+  <data key="d2">Equation (5) specifies g(z)=a·z+b for z∈R.</data>
+  <data key="d3">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+  <data key="d4">10</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.9</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Variable:a_param">
+  <data key="d0">a_param</data>
+  <data key="d1">Variable</data>
+  <data key="d2">a is a fitted parameter (in R^m) of the linear regression function g(z)=a·z+b.</data>
+  <data key="d3">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+  <data key="d4">10</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.75</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Variable:b_param">
+  <data key="d0">b_param</data>
+  <data key="d1">Variable</data>
+  <data key="d2">b is a fitted parameter (in R^m) of the linear regression function g(z)=a·z+b.</data>
+  <data key="d3">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+  <data key="d4">10</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.75</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Method:mse_regression">
+  <data key="d0">mse_regression</data>
+  <data key="d1">Method</data>
+  <data key="d2">Mean-squared-error-based regression is used to determine optimal a* and b* from paired z_i and θ_i* values. | A mean-squared error-based regression used to fit parameters to data.</data>
+  <data key="d3">mitra.pdf p.10 equation_candidate chunk_295840f7d0018374 || mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+  <data key="d4">10</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.9</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Equation:eq6_mse">
+  <data key="d0">eq6_mse</data>
+  <data key="d1">Equation</data>
+  <data key="d2">Equation (6) defines (a*,b*)=argmin_{a,b∈R^m} (1/n)∑_{i=1}^n (g(z_i)−θ_i*)^2.</data>
+  <data key="d3">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+  <data key="d4">10</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.9</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Descriptor:droplet_size_distribution">
+  <data key="d0">droplet_size_distribution</data>
+  <data key="d1">Descriptor</data>
+  <data key="d2">Droplet size distribution is analyzed to study atomization under different process parameters.</data>
+  <data key="d3">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+  <data key="d4">10</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.8</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Descriptor:droplet_velocity_distribution">
+  <data key="d0">droplet_velocity_distribution</data>
+  <data key="d1">Descriptor</data>
+  <data key="d2">Droplet velocity distribution is analyzed to study atomization under different process parameters.</data>
+  <data key="d3">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+  <data key="d4">10</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.8</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Concept:atomization_process">
+  <data key="d0">atomization_process</data>
+  <data key="d1">Concept</data>
+  <data key="d2">The atomization process produces droplets whose size and velocity distributions are analyzed.</data>
+  <data key="d3">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+  <data key="d4">10</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.7</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Instrument:two_fluid_nozzle">
+  <data key="d0">two_fluid_nozzle</data>
+  <data key="d1">Instrument</data>
+  <data key="d2">A two-fluid nozzle is used to produce droplets whose size and velocity distributions are measured.</data>
+  <data key="d3">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+  <data key="d4">10</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.7</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Instrument:hiwatch_s_ptv">
+  <data key="d0">hiwatch_s_ptv</data>
+  <data key="d1">Instrument</data>
+  <data key="d2">The HiWatchS-PTV system is used to obtain droplet data for selected representative experimental cases.</data>
+  <data key="d3">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+  <data key="d4">10</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.8</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Dataset:droplet_dataset_cases">
+  <data key="d0">droplet_dataset_cases</data>
+  <data key="d1">Dataset</data>
+  <data key="d2">Droplet data were obtained for representative cases F1B1, F1B2, and F2B2 using the HiWatchS-PTV system.</data>
+  <data key="d3">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+  <data key="d4">10</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.75</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Dataset:case_f1b1">
+  <data key="d0">case_F1B1</data>
+  <data key="d1">Dataset</data>
+  <data key="d2">Experimental case F1B1 corresponds to a low feed rate with a low binder.</data>
+  <data key="d3">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+  <data key="d4">10</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.6</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Dataset:case_f1b2">
+  <data key="d0">case_F1B2</data>
+  <data key="d1">Dataset</data>
+  <data key="d2">Experimental case F1B2 corresponds to a low feed rate with a high binder.</data>
+  <data key="d3">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+  <data key="d4">10</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.6</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Dataset:case_f2b2">
+  <data key="d0">case_F2B2</data>
+  <data key="d1">Dataset</data>
+  <data key="d2">Experimental case F2B2 corresponds to a high feed rate with a high binder.</data>
+  <data key="d3">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+  <data key="d4">10</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.6</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Chunk:chunk_07eaf63ef31d9e7c">
+  <data key="d0">chunk_07eaf63ef31d9e7c</data>
+  <data key="d1">Chunk</data>
+  <data key="d2">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+  <data key="d3">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+  <data key="d4">15</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">1.0</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Document:mitra_p15_chunk_07eaf63ef31d9e7c">
+  <data key="d0">mitra_p15_chunk_07eaf63ef31d9e7c</data>
+  <data key="d1">Document</data>
+  <data key="d2">PDF chunk describing regression-based prediction of descriptor distributions for process parameters in F and B series.</data>
+  <data key="d3">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+  <data key="d4">15</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.7</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Method:regression_procedure_sec2_7">
+  <data key="d0">regression_procedure_sec2_7</data>
+  <data key="d1">Method</data>
+  <data key="d2">Regression procedure (described in Section 2.7) applied to experimental series to predict descriptor probability densities.</data>
+  <data key="d3">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+  <data key="d4">15</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.85</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Dataset:f_series">
+  <data key="d0">F_series</data>
+  <data key="d1">Dataset</data>
+  <data key="d2">Dataset/series of experiments with varying feed rate (F series).</data>
+  <data key="d3">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+  <data key="d4">15</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.8</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Dataset:b_series">
+  <data key="d0">B_series</data>
+  <data key="d1">Dataset</data>
+  <data key="d2">Dataset/series of experiments with varying binder concentration (B series).</data>
+  <data key="d3">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+  <data key="d4">15</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.8</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Variable:descriptor_d_fmax">
+  <data key="d0">descriptor_d_Fmax</data>
+  <data key="d1">Variable</data>
+  <data key="d2">Granule descriptor d_Fmax whose distribution is modeled and predicted via regression.</data>
+  <data key="d3">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+  <data key="d4">15</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.85</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Variable:descriptor_psi_a">
+  <data key="d0">descriptor_Psi_A</data>
+  <data key="d1">Variable</data>
+  <data key="d2">Granule descriptor Ψ_A whose distribution is modeled and predicted via regression.</data>
+  <data key="d3">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+  <data key="d4">15</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.85</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Variable:model_parameters_theta">
+  <data key="d0">model_parameters_theta</data>
+  <data key="d1">Variable</data>
+  <data key="d2">Model parameters θ of the probability density functions for the conducted experiments. | Model parameters θ1,...,θn representing a low-dimensional description of fitted distributions.</data>
+  <data key="d3">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c || mitra.pdf p.9 page_text chunk_292a513b17ac9374</data>
+  <data key="d4">15,9</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.8</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Method:regression_function_g">
+  <data key="d0">regression_function_g</data>
+  <data key="d1">Method</data>
+  <data key="d2">Regression function g fitted to capture the relationship between process parameters z and model parameters θ.</data>
+  <data key="d3">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+  <data key="d4">15</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.9</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Equation:equation_5">
+  <data key="d0">equation_5</data>
+  <data key="d1">Equation</data>
+  <data key="d2">Equation (5) referenced as defining or supporting regression function g.</data>
+  <data key="d3">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+  <data key="d4">15</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.5</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Equation:equation_6">
+  <data key="d0">equation_6</data>
+  <data key="d1">Equation</data>
+  <data key="d2">Equation (6) referenced as defining or supporting regression function g.</data>
+  <data key="d3">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+  <data key="d4">15</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.5</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Concept:lognormal_distribution">
+  <data key="d0">lognormal_distribution</data>
+  <data key="d1">Concept</data>
+  <data key="d2">Lognormal distribution used for modeling the descriptor d_Fmax.</data>
+  <data key="d3">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+  <data key="d4">15</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.7</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Concept:normal_distribution">
+  <data key="d0">normal_distribution</data>
+  <data key="d1">Concept</data>
+  <data key="d2">Normal distribution used for modeling the descriptor Ψ_A.</data>
+  <data key="d3">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+  <data key="d4">15</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.7</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Finding:high_degree_of_agreement">
+  <data key="d0">high_degree_of_agreement</data>
+  <data key="d1">Finding</data>
+  <data key="d2">Observation that fitted regression lines agree strongly with the model parameters.</data>
+  <data key="d3">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+  <data key="d4">15</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.75</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Application:prediction_intermediate_conditions">
+  <data key="d0">prediction_intermediate_conditions</data>
+  <data key="d1">Application</data>
+  <data key="d2">Using fitted regression functions to predict descriptor distributions for intermediate feed rates or binder concentrations not experimentally measured.</data>
+  <data key="d3">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+  <data key="d4">15</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.8</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Limitation:unmeasured_process_parameters">
+  <data key="d0">unmeasured_process_parameters</data>
+  <data key="d1">Limitation</data>
+  <data key="d2">Predictions target process parameters for which no measurements have been conducted yet (not experimentally measured).</data>
+  <data key="d3">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+  <data key="d4">15</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.65</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Descriptor:feed_rate_range_11_20">
+  <data key="d0">feed_rate_range_11_20</data>
+  <data key="d1">Descriptor</data>
+  <data key="d2">Feed rate range expressed as z ∈ [11,20] for which predictions are stated for the F series regression.</data>
+  <data key="d3">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+  <data key="d4">15</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.6</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Descriptor:binder_concentration_fixed_0_8wtpct">
+  <data key="d0">binder_concentration_fixed_0_8wtpct</data>
+  <data key="d1">Descriptor</data>
+  <data key="d2">Fixed binder concentration of 0.8 wt% specified for predictions using the F series regression function.</data>
+  <data key="d3">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+  <data key="d4">15</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.6</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Chunk:chunk_292a513b17ac9374">
+  <data key="d0">chunk_292a513b17ac9374</data>
+  <data key="d1">Chunk</data>
+  <data key="d2">mitra.pdf p.9 page_text chunk_292a513b17ac9374</data>
+  <data key="d3">mitra.pdf p.9 page_text chunk_292a513b17ac9374</data>
+  <data key="d4">9</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">1.0</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Document:mitra_p9_chunk_292a">
+  <data key="d0">mitra_p9_chunk_292a</data>
+  <data key="d1">Document</data>
+  <data key="d2">PDF chunk discussing Feret-diameter-based granule shape descriptors and parametric modeling of descriptor distributions.</data>
+  <data key="d3">mitra.pdf p.9 page_text chunk_292a513b17ac9374</data>
+  <data key="d4">9</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">1.0</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Concept:granule_morphology">
+  <data key="d0">granule_morphology</data>
+  <data key="d1">Concept</data>
+  <data key="d2">Morphological characterization of granules using size and shape descriptors.</data>
+  <data key="d3">mitra.pdf p.9 page_text chunk_292a513b17ac9374</data>
+  <data key="d4">9</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.9</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Variable:feret_min">
+  <data key="d0">feret_min</data>
+  <data key="d1">Variable</data>
+  <data key="d2">Minimum Feret diameter used as a shape/size descriptor component.</data>
+  <data key="d3">mitra.pdf p.9 page_text chunk_292a513b17ac9374</data>
+  <data key="d4">9</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.85</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Variable:feret_max">
+  <data key="d0">feret_max</data>
+  <data key="d1">Variable</data>
+  <data key="d2">Maximum Feret diameter used as a shape/size descriptor component.</data>
+  <data key="d3">mitra.pdf p.9 page_text chunk_292a513b17ac9374</data>
+  <data key="d4">9</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.85</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Variable:diameter_d">
+  <data key="d0">diameter_d</data>
+  <data key="d1">Variable</data>
+  <data key="d2">Diameter descriptor d defined via an equation using Feret diameters.</data>
+  <data key="d3">mitra.pdf p.9 page_text chunk_292a513b17ac9374</data>
+  <data key="d4">9</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.7</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Variable:aspect_ratio_psi">
+  <data key="d0">aspect_ratio_psi</data>
+  <data key="d1">Variable</data>
+  <data key="d2">Aspect ratio Ψ is a dimensionless number between 0 and 1 indicating compactness or elongation.</data>
+  <data key="d3">mitra.pdf p.9 page_text chunk_292a513b17ac9374</data>
+  <data key="d4">9</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.95</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Equation:eq2_aspect_ratio">
+  <data key="d0">eq2_aspect_ratio</data>
+  <data key="d1">Equation</data>
+  <data key="d2">Equation (2) defines the aspect ratio as the ratio of minimum to maximum Feret diameter.</data>
+  <data key="d3">mitra.pdf p.9 page_text chunk_292a513b17ac9374</data>
+  <data key="d4">9</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.95</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Descriptor:robust_orientation_independent">
+  <data key="d0">robust_orientation_independent</data>
+  <data key="d1">Descriptor</data>
+  <data key="d2">Property of calculations being robust and orientation-independent.</data>
+  <data key="d3">mitra.pdf p.9 page_text chunk_292a513b17ac9374</data>
+  <data key="d4">9</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.7</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Concept:shape_compactness_elongation">
+  <data key="d0">shape_compactness_elongation</data>
+  <data key="d1">Concept</data>
+  <data key="d2">Interpretation of aspect ratio values as compact (≈1) or elongated (≪1) 2D silhouettes.</data>
+  <data key="d3">mitra.pdf p.9 page_text chunk_292a513b17ac9374</data>
+  <data key="d4">9</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.75</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Concept:size_distribution">
+  <data key="d0">size_distribution</data>
+  <data key="d1">Concept</data>
+  <data key="d2">Granule size distribution studied in relation to process parameters.</data>
+  <data key="d3">mitra.pdf p.9 page_text chunk_292a513b17ac9374</data>
+  <data key="d4">9</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.7</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Concept:shape_uniformity">
+  <data key="d0">shape_uniformity</data>
+  <data key="d1">Concept</data>
+  <data key="d2">Uniformity of granule shape studied in relation to process parameters.</data>
+  <data key="d3">mitra.pdf p.9 page_text chunk_292a513b17ac9374</data>
+  <data key="d4">9</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.7</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Method:parametric_modeling">
+  <data key="d0">parametric_modeling</data>
+  <data key="d1">Method</data>
+  <data key="d2">Parametric modeling of descriptor distributions using fitted probability density families for comparison and prediction. | Modeling approach that fits parametric probability density families to measured data sets.</data>
+  <data key="d3">mitra.pdf p.9 equation_candidate chunk_073a8613a554e6ae || mitra.pdf p.9 page_text chunk_292a513b17ac9374</data>
+  <data key="d4">9</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.95</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Dataset:descriptor_datasets_a">
+  <data key="d0">descriptor_datasets_A</data>
+  <data key="d1">Dataset</data>
+  <data key="d2">Finite datasets A1,...,An of granule descriptors measured for different experimental cases.</data>
+  <data key="d3">mitra.pdf p.9 page_text chunk_292a513b17ac9374</data>
+  <data key="d4">9</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.85</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Variable:process_parameters_z">
+  <data key="d0">process_parameters_z</data>
+  <data key="d1">Variable</data>
+  <data key="d2">Process parameters z1,...,zn associated with experiments and linked to model parameters.</data>
+  <data key="d3">mitra.pdf p.9 page_text chunk_292a513b17ac9374</data>
+  <data key="d4">9</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.8</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Concept:parametric_density_family_f">
+  <data key="d0">parametric_density_family_f</data>
+  <data key="d1">Concept</data>
+  <data key="d2">Parametric family of probability densities {fθ, θ∈Θ} fitted to descriptor datasets.</data>
+  <data key="d3">mitra.pdf p.9 page_text chunk_292a513b17ac9374</data>
+  <data key="d4">9</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.8</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Method:kde">
+  <data key="d0">kde</data>
+  <data key="d1">Method</data>
+  <data key="d2">Kernel density estimation (KDE) mentioned as a non-parametric technique for distribution estimation. | Kernel density estimation (KDE), described as simple to implement and assumption-free on the data.</data>
+  <data key="d3">mitra.pdf p.9 equation_candidate chunk_073a8613a554e6ae || mitra.pdf p.9 page_text chunk_292a513b17ac9374</data>
+  <data key="d4">9</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.55</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Method:regression">
+  <data key="d0">regression</data>
+  <data key="d1">Method</data>
+  <data key="d2">Regression used to relate process parameters to model parameters for predicting descriptor distributions.</data>
+  <data key="d3">mitra.pdf p.9 page_text chunk_292a513b17ac9374</data>
+  <data key="d4">9</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.85</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Application:inline_process_monitoring">
+  <data key="d0">inline_process_monitoring</data>
+  <data key="d1">Application</data>
+  <data key="d2">Inline process monitoring where benefits of parametric modeling are especially important.</data>
+  <data key="d3">mitra.pdf p.9 page_text chunk_292a513b17ac9374</data>
+  <data key="d4">9</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.65</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Finding:advantages_parametric">
+  <data key="d0">advantages_parametric</data>
+  <data key="d1">Finding</data>
+  <data key="d2">Parametric modeling is described as offering interpretability, dimensionality reduction, and computational efficiency.</data>
+  <data key="d3">mitra.pdf p.9 page_text chunk_292a513b17ac9374</data>
+  <data key="d4">9</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.7</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Finding:prediction_not_yet_conducted">
+  <data key="d0">prediction_not_yet_conducted</data>
+  <data key="d1">Finding</data>
+  <data key="d2">Descriptor distributions can be predicted for not-yet-conducted experiments via regression between z and θ.</data>
+  <data key="d3">mitra.pdf p.9 page_text chunk_292a513b17ac9374</data>
+  <data key="d4">9</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.7</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Chunk:chunk_073a8613a554e6ae">
+  <data key="d0">chunk_073a8613a554e6ae</data>
+  <data key="d1">Chunk</data>
+  <data key="d2">mitra.pdf p.9 equation_candidate chunk_073a8613a554e6ae</data>
+  <data key="d3">mitra.pdf p.9 equation_candidate chunk_073a8613a554e6ae</data>
+  <data key="d4">9</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">1.0</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Document:mitra_p9">
+  <data key="d0">mitra_p9</data>
+  <data key="d1">Document</data>
+  <data key="d2">A page of mitra.pdf discussing parametric modeling of granule descriptor distributions and an equation candidate.</data>
+  <data key="d3">mitra.pdf p.9 equation_candidate chunk_073a8613a554e6ae</data>
+  <data key="d4">9</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.9</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Concept:granule_descriptor_distributions">
+  <data key="d0">granule_descriptor_distributions</data>
+  <data key="d1">Concept</data>
+  <data key="d2">Distributions of granule descriptors measured for different experimental cases.</data>
+  <data key="d3">mitra.pdf p.9 equation_candidate chunk_073a8613a554e6ae</data>
+  <data key="d4">9</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.85</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Concept:experimental_cases">
+  <data key="d0">experimental_cases</data>
+  <data key="d1">Concept</data>
+  <data key="d2">Different experimental cases for which granule descriptor distributions are measured.</data>
+  <data key="d3">mitra.pdf p.9 equation_candidate chunk_073a8613a554e6ae</data>
+  <data key="d4">9</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.6</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Dataset:measured_data_sets">
+  <data key="d0">measured_data_sets</data>
+  <data key="d1">Dataset</data>
+  <data key="d2">Measured data sets of granule descriptors used for model fitting.</data>
+  <data key="d3">mitra.pdf p.9 equation_candidate chunk_073a8613a554e6ae</data>
+  <data key="d4">9</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.75</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Equation:parametric_family_f_theta">
+  <data key="d0">parametric_family_f_theta</data>
+  <data key="d1">Equation</data>
+  <data key="d2">A parametric family of probability densities denoted f_θ mapping from R to [0,∞).</data>
+  <data key="d3">mitra.pdf p.9 equation_candidate chunk_073a8613a554e6ae</data>
+  <data key="d4">9</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.8</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Variable:model_parameters">
+  <data key="d0">model_parameters</data>
+  <data key="d1">Variable</data>
+  <data key="d2">Model parameters θ1,...,θn used to represent the measured data sets in low dimension.</data>
+  <data key="d3">mitra.pdf p.9 equation_candidate chunk_073a8613a554e6ae</data>
+  <data key="d4">9</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.85</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Variable:parameter_space_theta">
+  <data key="d0">parameter_space_Theta</data>
+  <data key="d1">Variable</data>
+  <data key="d2">Parameter space Θ that is a subset of R^m.</data>
+  <data key="d3">mitra.pdf p.9 equation_candidate chunk_073a8613a554e6ae</data>
+  <data key="d4">9</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.7</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Variable:dimension_m">
+  <data key="d0">dimension_m</data>
+  <data key="d1">Variable</data>
+  <data key="d2">An integer m≥1 indicating the dimension of the parameter space R^m.</data>
+  <data key="d3">mitra.pdf p.9 equation_candidate chunk_073a8613a554e6ae</data>
+  <data key="d4">9</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.55</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Equation:eq_theta_in_theta">
+  <data key="d0">eq_theta_in_Theta</data>
+  <data key="d1">Equation</data>
+  <data key="d2">Constraint that θ1,...,θn ∈ Θ ⊂ R^m for some integer m ≥ 1.</data>
+  <data key="d3">mitra.pdf p.9 equation_candidate chunk_073a8613a554e6ae</data>
+  <data key="d4">9</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.9</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Concept:low_dim_representation">
+  <data key="d0">low_dim_representation</data>
+  <data key="d1">Concept</data>
+  <data key="d2">A low-dimensional representation of the data sets in terms of model parameters.</data>
+  <data key="d3">mitra.pdf p.9 equation_candidate chunk_073a8613a554e6ae</data>
+  <data key="d4">9</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.85</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Method:nonparametric_techniques">
+  <data key="d0">nonparametric_techniques</data>
+  <data key="d1">Method</data>
+  <data key="d2">Non-parametric techniques such as KDEs used for density estimation.</data>
+  <data key="d3">mitra.pdf p.9 equation_candidate chunk_073a8613a554e6ae</data>
+  <data key="d4">9</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.65</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Descriptor:interpretability">
+  <data key="d0">interpretability</data>
+  <data key="d1">Descriptor</data>
+  <data key="d2">Interpretability listed as an advantage of parametric modeling.</data>
+  <data key="d3">mitra.pdf p.9 equation_candidate chunk_073a8613a554e6ae</data>
+  <data key="d4">9</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.55</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Descriptor:dimensionality_reduction">
+  <data key="d0">dimensionality_reduction</data>
+  <data key="d1">Descriptor</data>
+  <data key="d2">Dimensionality reduction listed as an advantage of parametric modeling.</data>
+  <data key="d3">mitra.pdf p.9 equation_candidate chunk_073a8613a554e6ae</data>
+  <data key="d4">9</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.6</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Descriptor:computational_efficiency">
+  <data key="d0">computational_efficiency</data>
+  <data key="d1">Descriptor</data>
+  <data key="d2">Computational efficiency listed as an advantage of parametric modeling.</data>
+  <data key="d3">mitra.pdf p.9 equation_candidate chunk_073a8613a554e6ae</data>
+  <data key="d4">9</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.6</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Concept:feret_diameters">
+  <data key="d0">feret_diameters</data>
+  <data key="d1">Concept</data>
+  <data key="d2">Minimum and maximum Feret diameters referenced via a schematic representation for an irregular object.</data>
+  <data key="d3">mitra.pdf p.9 equation_candidate chunk_073a8613a554e6ae</data>
+  <data key="d4">9</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.55</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Finding:finding_low_parametric_achieved">
+  <data key="d0">finding_low_parametric_achieved</data>
+  <data key="d1">Finding</data>
+  <data key="d2">A low-dimensional representation in terms of model parameters was achieved.</data>
+  <data key="d3">mitra.pdf p.9 equation_candidate chunk_073a8613a554e6ae</data>
+  <data key="d4">9</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.85</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Finding:finding_parametric_advantages">
+  <data key="d0">finding_parametric_advantages</data>
+  <data key="d1">Finding</data>
+  <data key="d2">Parametric modeling is said to provide interpretability, dimensionality reduction, and computational efficiency.</data>
+  <data key="d3">mitra.pdf p.9 equation_candidate chunk_073a8613a554e6ae</data>
+  <data key="d4">9</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.8</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Chunk:chunk_295840f7d0018374">
+  <data key="d0">chunk_295840f7d0018374</data>
+  <data key="d1">Chunk</data>
+  <data key="d2">mitra.pdf p.10 equation_candidate chunk_295840f7d0018374</data>
+  <data key="d3">mitra.pdf p.10 equation_candidate chunk_295840f7d0018374</data>
+  <data key="d4">10</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">1.0</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Document:mitra_p10_chunk295840f7d0018374">
+  <data key="d0">mitra_p10_chunk295840f7d0018374</data>
+  <data key="d1">Document</data>
+  <data key="d2">A PDF chunk from mitra.pdf page 10 containing an extracted regression objective labeled as Equation (6).</data>
+  <data key="d3">mitra.pdf p.10 equation_candidate chunk_295840f7d0018374</data>
+  <data key="d4">10</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.9</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Equation:eq6_argmin_mse">
+  <data key="d0">eq6_argmin_mse</data>
+  <data key="d1">Equation</data>
+  <data key="d2">Equation (6) defines optimal parameters (a*, b*) by minimizing mean squared error between g(z_i) and theta_i* over i=1..n.</data>
+  <data key="d3">mitra.pdf p.10 equation_candidate chunk_295840f7d0018374</data>
+  <data key="d4">10</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">1.0</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Variable:param_a">
+  <data key="d0">param_a</data>
+  <data key="d1">Variable</data>
+  <data key="d2">Parameter vector a in R^m that is fitted to data.</data>
+  <data key="d3">mitra.pdf p.10 equation_candidate chunk_295840f7d0018374</data>
+  <data key="d4">10</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.8</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Variable:param_b">
+  <data key="d0">param_b</data>
+  <data key="d1">Variable</data>
+  <data key="d2">Parameter vector b in R^m that is fitted to data.</data>
+  <data key="d3">mitra.pdf p.10 equation_candidate chunk_295840f7d0018374</data>
+  <data key="d4">10</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.8</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Variable:param_a_star">
+  <data key="d0">param_a_star</data>
+  <data key="d1">Variable</data>
+  <data key="d2">Optimal parameter vector a* in R^m obtained from the argmin problem.</data>
+  <data key="d3">mitra.pdf p.10 equation_candidate chunk_295840f7d0018374</data>
+  <data key="d4">10</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.85</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Variable:param_b_star">
+  <data key="d0">param_b_star</data>
+  <data key="d1">Variable</data>
+  <data key="d2">Optimal parameter vector b* in R^m obtained from the argmin problem.</data>
+  <data key="d3">mitra.pdf p.10 equation_candidate chunk_295840f7d0018374</data>
+  <data key="d4">10</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.85</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Variable:z_i">
+  <data key="d0">z_i</data>
+  <data key="d1">Variable</data>
+  <data key="d2">Input data points z_1,...,z_n used in the regression.</data>
+  <data key="d3">mitra.pdf p.10 equation_candidate chunk_295840f7d0018374</data>
+  <data key="d4">10</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.75</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Variable:theta_i_star">
+  <data key="d0">theta_i_star</data>
+  <data key="d1">Variable</data>
+  <data key="d2">Target values theta_1*,...,theta_n* used in the regression objective.</data>
+  <data key="d3">mitra.pdf p.10 equation_candidate chunk_295840f7d0018374</data>
+  <data key="d4">10</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.75</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Concept:g_of_z">
+  <data key="d0">g_of_z</data>
+  <data key="d1">Concept</data>
+  <data key="d2">A function g applied to inputs z_i whose output is compared against theta_i* in the loss.</data>
+  <data key="d3">mitra.pdf p.10 equation_candidate chunk_295840f7d0018374</data>
+  <data key="d4">10</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.7</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Variable:n_samples">
+  <data key="d0">n_samples</data>
+  <data key="d1">Variable</data>
+  <data key="d2">The sample count n used to average the squared errors in the objective.</data>
+  <data key="d3">mitra.pdf p.10 equation_candidate chunk_295840f7d0018374</data>
+  <data key="d4">10</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.6</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Limitation:unverified_equation_flag">
+  <data key="d0">unverified_equation_flag</data>
+  <data key="d1">Limitation</data>
+  <data key="d2">The chunk flags the extracted equation as unverified and requiring review before use as a paper fact.</data>
+  <data key="d3">mitra.pdf p.10 equation_candidate chunk_295840f7d0018374</data>
+  <data key="d4">10</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.7</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Chunk:chunk_1c86e251de2cb8bc">
+  <data key="d0">chunk_1c86e251de2cb8bc</data>
+  <data key="d1">Chunk</data>
+  <data key="d2">mitra.pdf p.16 equation_candidate chunk_1c86e251de2cb8bc</data>
+  <data key="d3">mitra.pdf p.16 equation_candidate chunk_1c86e251de2cb8bc</data>
+  <data key="d4">16</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">1.0</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Document:mitra.pdf_p16_chunk_1c86e251de2cb8bc">
+  <data key="d0">mitra.pdf_p16_chunk_1c86e251de2cb8bc</data>
+  <data key="d1">Document</data>
+  <data key="d2">A PDF page chunk describing use of empirical Pearson correlation coefficients (EPCC) to examine correlation between granule descriptors.</data>
+  <data key="d3">mitra.pdf p.16 equation_candidate chunk_1c86e251de2cb8bc</data>
+  <data key="d4">16</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.9</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Method:epcc">
+  <data key="d0">EPCC</data>
+  <data key="d1">Method</data>
+  <data key="d2">Empirical Pearson correlation coefficients used to quantify linear correlation between two variables.</data>
+  <data key="d3">mitra.pdf p.16 equation_candidate chunk_1c86e251de2cb8bc</data>
+  <data key="d4">16</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.9</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Equation:eq9_epcc_definition">
+  <data key="d0">Eq9_EPCC_definition</data>
+  <data key="d1">Equation</data>
+  <data key="d2">Equation (9) giving the empirical Pearson correlation coefficients EPCC(x,y).</data>
+  <data key="d3">mitra.pdf p.16 equation_candidate chunk_1c86e251de2cb8bc</data>
+  <data key="d4">16</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.9</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Concept:linear_correlation">
+  <data key="d0">linear_correlation</data>
+  <data key="d1">Concept</data>
+  <data key="d2">Linear correlation examined between two granule descriptors.</data>
+  <data key="d3">mitra.pdf p.16 equation_candidate chunk_1c86e251de2cb8bc</data>
+  <data key="d4">16</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.7</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Descriptor:dfmax_descriptor">
+  <data key="d0">dFmax_descriptor</data>
+  <data key="d1">Descriptor</data>
+  <data key="d2">Granule descriptor d_F_max referred to as the maximum Feret diameter.</data>
+  <data key="d3">mitra.pdf p.16 equation_candidate chunk_1c86e251de2cb8bc</data>
+  <data key="d4">16</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.85</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Descriptor:psia_descriptor">
+  <data key="d0">PsiA_descriptor</data>
+  <data key="d1">Descriptor</data>
+  <data key="d2">Granule descriptor Ψ_A referred to as the aspect ratio.</data>
+  <data key="d3">mitra.pdf p.16 equation_candidate chunk_1c86e251de2cb8bc</data>
+  <data key="d4">16</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.85</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Variable:xi">
+  <data key="d0">xi</data>
+  <data key="d1">Variable</data>
+  <data key="d2">Variable x_i representing the maximum Feret diameter of the i-th granule.</data>
+  <data key="d3">mitra.pdf p.16 equation_candidate chunk_1c86e251de2cb8bc</data>
+  <data key="d4">16</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.75</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Variable:yi">
+  <data key="d0">yi</data>
+  <data key="d1">Variable</data>
+  <data key="d2">Variable y_i representing the aspect ratio of the i-th granule.</data>
+  <data key="d3">mitra.pdf p.16 equation_candidate chunk_1c86e251de2cb8bc</data>
+  <data key="d4">16</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.75</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Dataset:sopat_images">
+  <data key="d0">SOPAT_images</data>
+  <data key="d1">Dataset</data>
+  <data key="d2">Images referred to as the source of x_i and y_i measurements for granules.</data>
+  <data key="d3">mitra.pdf p.16 equation_candidate chunk_1c86e251de2cb8bc</data>
+  <data key="d4">16</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.7</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Dataset:experiments_f1b2_to_f1b4">
+  <data key="d0">Experiments_F1B2_to_F1B4</data>
+  <data key="d1">Dataset</data>
+  <data key="d2">A set of experiments listed as F1B2, F2B2, F3B2, F1B1, F1B3, and F1B4.</data>
+  <data key="d3">mitra.pdf p.16 equation_candidate chunk_1c86e251de2cb8bc</data>
+  <data key="d4">16</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.4</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Limitation:unverified_equation_candidate_notice">
+  <data key="d0">unverified_equation_candidate_notice</data>
+  <data key="d1">Limitation</data>
+  <data key="d2">A notice stating the extracted equation is unverified and should be reviewed before use as a paper fact.</data>
+  <data key="d3">mitra.pdf p.16 equation_candidate chunk_1c86e251de2cb8bc</data>
+  <data key="d4">16</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.8</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Chunk:chunk_9082cc6cb7d7ca45">
+  <data key="d0">chunk_9082cc6cb7d7ca45</data>
+  <data key="d1">Chunk</data>
+  <data key="d2">mitra.pdf p.8 page_text chunk_9082cc6cb7d7ca45</data>
+  <data key="d3">mitra.pdf p.8 page_text chunk_9082cc6cb7d7ca45</data>
+  <data key="d4">8</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">1.0</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Document:mitra_p8_chunk_9082cc6cb7d7ca45">
+  <data key="d0">mitra_p8_chunk_9082cc6cb7d7ca45</data>
+  <data key="d1">Document</data>
+  <data key="d2">PDF chunk describing SOPAT inline granule imaging probe illumination, imaging settings, and size/shape descriptor extraction.</data>
+  <data key="d3">mitra.pdf p.8 page_text chunk_9082cc6cb7d7ca45</data>
+  <data key="d4">8</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">1.0</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Instrument:sopat_inline_granule_imaging_probe">
+  <data key="d0">SOPAT_inline_granule_imaging_probe</data>
+  <data key="d1">Instrument</data>
+  <data key="d2">Inline granule imaging probe equipped with a microscopic optical system for imaging granules.</data>
+  <data key="d3">mitra.pdf p.8 page_text chunk_9082cc6cb7d7ca45</data>
+  <data key="d4">8</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.95</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Material:rhodium_reflector">
+  <data key="d0">rhodium_reflector</data>
+  <data key="d1">Material</data>
+  <data key="d2">Rhodium reflector positioned at a controllable distance from the lens to provide uniform illumination with strobe light.</data>
+  <data key="d3">mitra.pdf p.8 page_text chunk_9082cc6cb7d7ca45</data>
+  <data key="d4">8</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.85</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Instrument:integrated_strobe_light">
+  <data key="d0">integrated_strobe_light</data>
+  <data key="d1">Instrument</data>
+  <data key="d2">Integrated strobe light used with the reflector to provide uniform and controlled illumination.</data>
+  <data key="d3">mitra.pdf p.8 page_text chunk_9082cc6cb7d7ca45</data>
+  <data key="d4">8</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.8</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Concept:uniform_controlled_illumination">
+  <data key="d0">uniform_controlled_illumination</data>
+  <data key="d1">Concept</data>
+  <data key="d2">Uniform and controlled illumination for imaging granules.</data>
+  <data key="d3">mitra.pdf p.8 page_text chunk_9082cc6cb7d7ca45</data>
+  <data key="d4">8</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.6</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Variable:reflector_lens_distance">
+  <data key="d0">reflector_lens_distance</data>
+  <data key="d1">Variable</data>
+  <data key="d2">Distance between reflector and lens used to manage image quality and occlusion.</data>
+  <data key="d3">mitra.pdf p.8 page_text chunk_9082cc6cb7d7ca45</data>
+  <data key="d4">8</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.8</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Concept:image_quality">
+  <data key="d0">image_quality</data>
+  <data key="d1">Concept</data>
+  <data key="d2">Quality of SOPAT images as affected by reflector placement and focus.</data>
+  <data key="d3">mitra.pdf p.8 page_text chunk_9082cc6cb7d7ca45</data>
+  <data key="d4">8</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.55</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Limitation:occlusion_from_granules">
+  <data key="d0">occlusion_from_granules</data>
+  <data key="d1">Limitation</data>
+  <data key="d2">Occlusion from granules that can be reduced by increasing reflector–lens distance for certain material systems.</data>
+  <data key="d3">mitra.pdf p.8 page_text chunk_9082cc6cb7d7ca45</data>
+  <data key="d4">8</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.55</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Instrument:microscopic_optical_system">
+  <data key="d0">microscopic_optical_system</data>
+  <data key="d1">Instrument</data>
+  <data key="d2">Microscopic optical system providing a diagonal field of view enabling granule resolution in a defined size range.</data>
+  <data key="d3">mitra.pdf p.8 page_text chunk_9082cc6cb7d7ca45</data>
+  <data key="d4">8</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.7</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Variable:diagonal_field_of_view">
+  <data key="d0">diagonal_field_of_view</data>
+  <data key="d1">Variable</data>
+  <data key="d2">Diagonal field of view of 800 µm.</data>
+  <data key="d3">mitra.pdf p.8 page_text chunk_9082cc6cb7d7ca45</data>
+  <data key="d4">8</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.6</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Descriptor:granule_size_range_2_300_um">
+  <data key="d0">granule_size_range_2_300_um</data>
+  <data key="d1">Descriptor</data>
+  <data key="d2">Granules in the approximate size range of 2 µm to 300 µm that can be resolved by the probe.</data>
+  <data key="d3">mitra.pdf p.8 page_text chunk_9082cc6cb7d7ca45</data>
+  <data key="d4">8</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.7</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Instrument:sopat_camera">
+  <data key="d0">SOPAT_camera</data>
+  <data key="d1">Instrument</data>
+  <data key="d2">Camera recording monochrome 8-bit images at 2464×2056 pixels for granule analysis.</data>
+  <data key="d3">mitra.pdf p.8 page_text chunk_9082cc6cb7d7ca45</data>
+  <data key="d4">8</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.9</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Material:dried_agglomerated_granules">
+  <data key="d0">dried_agglomerated_granules</data>
+  <data key="d1">Material</data>
+  <data key="d2">Dried agglomerated granules primarily captured by the SOPAT camera.</data>
+  <data key="d3">mitra.pdf p.8 page_text chunk_9082cc6cb7d7ca45</data>
+  <data key="d4">8</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.75</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Material:primary_alumina_nanoparticles">
+  <data key="d0">primary_alumina_nanoparticles</data>
+  <data key="d1">Material</data>
+  <data key="d2">Individual primary alumina nanoparticles that fall below the resolution limit of the imaging system.</data>
+  <data key="d3">mitra.pdf p.8 page_text chunk_9082cc6cb7d7ca45</data>
+  <data key="d4">8</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.7</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Limitation:resolution_limit">
+  <data key="d0">resolution_limit</data>
+  <data key="d1">Limitation</data>
+  <data key="d2">Resolution limit preventing imaging of individual primary alumina nanoparticles.</data>
+  <data key="d3">mitra.pdf p.8 page_text chunk_9082cc6cb7d7ca45</data>
+  <data key="d4">8</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.7</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Dataset:imaging_parameters_table2">
+  <data key="d0">imaging_parameters_table2</data>
+  <data key="d1">Dataset</data>
+  <data key="d2">Table 2 listing imaging specifications for the SOPAT inline granule imaging probe.</data>
+  <data key="d3">mitra.pdf p.8 page_text chunk_9082cc6cb7d7ca45</data>
+  <data key="d4">8</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.8</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Descriptor:image_format_8bit_monochrome">
+  <data key="d0">image_format_8bit_monochrome</data>
+  <data key="d1">Descriptor</data>
+  <data key="d2">Monochromatic 8-bit image format.</data>
+  <data key="d3">mitra.pdf p.8 page_text chunk_9082cc6cb7d7ca45</data>
+  <data key="d4">8</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.55</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Variable:image_dimensions_2464x2056">
+  <data key="d0">image_dimensions_2464x2056</data>
+  <data key="d1">Variable</data>
+  <data key="d2">Recorded image resolution of 2464×2056 pixels.</data>
+  <data key="d3">mitra.pdf p.8 page_text chunk_9082cc6cb7d7ca45</data>
+  <data key="d4">8</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.7</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Variable:conversion_factor">
+  <data key="d0">conversion_factor</data>
+  <data key="d1">Variable</data>
+  <data key="d2">Calibrated spatial conversion factor used to convert pixel dimensions into physical measurements.</data>
+  <data key="d3">mitra.pdf p.8 page_text chunk_9082cc6cb7d7ca45</data>
+  <data key="d4">8</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.8</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Variable:frame_rate">
+  <data key="d0">frame_rate</data>
+  <data key="d1">Variable</data>
+  <data key="d2">Fixed frame rate of 20 Hz used for image acquisition.</data>
+  <data key="d3">mitra.pdf p.8 page_text chunk_9082cc6cb7d7ca45</data>
+  <data key="d4">8</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.7</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Concept:statistical_significance_granule_size_distribution">
+  <data key="d0">statistical_significance_granule_size_distribution</data>
+  <data key="d1">Concept</data>
+  <data key="d2">Statistical significance for granule size distribution at each time point ensured by sufficient images.</data>
+  <data key="d3">mitra.pdf p.8 page_text chunk_9082cc6cb7d7ca45</data>
+  <data key="d4">8</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.6</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Limitation:biased_statistical_evaluations">
+  <data key="d0">biased_statistical_evaluations</data>
+  <data key="d1">Limitation</data>
+  <data key="d2">Potential bias if the same granule is captured in consecutive frames.</data>
+  <data key="d3">mitra.pdf p.8 page_text chunk_9082cc6cb7d7ca45</data>
+  <data key="d4">8</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.6</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Variable:focus_position">
+  <data key="d0">focus_position</data>
+  <data key="d1">Variable</data>
+  <data key="d2">Optical focus position adjusted to optimize image clarity for granules in the focal plane.</data>
+  <data key="d3">mitra.pdf p.8 page_text chunk_9082cc6cb7d7ca45</data>
+  <data key="d4">8</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.7</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Variable:strobe_intensity">
+  <data key="d0">strobe_intensity</data>
+  <data key="d1">Variable</data>
+  <data key="d2">Strobe intensity setting used during image capture.</data>
+  <data key="d3">mitra.pdf p.8 page_text chunk_9082cc6cb7d7ca45</data>
+  <data key="d4">8</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.45</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Variable:exposure_time">
+  <data key="d0">exposure_time</data>
+  <data key="d1">Variable</data>
+  <data key="d2">Exposure time setting used during image capture.</data>
+  <data key="d3">mitra.pdf p.8 page_text chunk_9082cc6cb7d7ca45</data>
+  <data key="d4">8</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.45</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Dataset:sopat_image_series">
+  <data key="d0">SOPAT_image_series</data>
+  <data key="d1">Dataset</data>
+  <data key="d2">Image series collected from each experimental run and processed to extract granule size and shape descriptor distributions.</data>
+  <data key="d3">mitra.pdf p.8 page_text chunk_9082cc6cb7d7ca45</data>
+  <data key="d4">8</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.85</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Method:image_processing_method">
+  <data key="d0">image_processing_method</data>
+  <data key="d1">Method</data>
+  <data key="d2">Processing of image series to extract granule size and shape descriptor distributions.</data>
+  <data key="d3">mitra.pdf p.8 page_text chunk_9082cc6cb7d7ca45</data>
+  <data key="d4">8</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.75</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Method:two_dimensional_image_analysis">
+  <data key="d0">two_dimensional_image_analysis</data>
+  <data key="d1">Method</data>
+  <data key="d2">Two-dimensional (2D) image analysis of SOPAT images used to derive size and shape descriptors.</data>
+  <data key="d3">mitra.pdf p.8 page_text chunk_9082cc6cb7d7ca45</data>
+  <data key="d4">8</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.8</data>
+  <data key="d7">mitra</data>
+</node>
+<node id="Descriptor:maximum_feret_diameter">
+  <data key="d0">maximum_feret_diameter</data>
+  <data key="d1">Descriptor</data>
+  <data key="d2">Size/shape descriptor defined as the longest distance between two parallel lines tangential to the 2D silhouette of the granule.</data>
+  <data key="d3">mitra.pdf p.8 page_text chunk_9082cc6cb7d7ca45</data>
+  <data key="d4">8</data>
+  <data key="d5">mitra.pdf</data>
+  <data key="d6">0.85</data>
+  <data key="d7">mitra</data>
+</node>
+<edge source="Chunk:chunk_bb79271b66b555df" target="Paper:mitra" id="PART_OF:chunk_bb79271b66b555df">
+  <data key="d8">PART_OF</data>
+  <data key="d9">chunk belongs to paper</data>
+  <data key="d10">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+</edge>
+<edge source="Document:doc_mitra_p16" target="Chunk:chunk_bb79271b66b555df" id="EVIDENCED_BY:33e8b820fa43d306">
+  <data key="d8">EVIDENCED_BY</data>
+  <data key="d9">supported by chunk</data>
+  <data key="d10">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+</edge>
+<edge source="Document:doc_mitra_p16" target="Paper:mitra" id="REPORTED_IN:618bb6aae5dbcebe">
+  <data key="d8">REPORTED_IN</data>
+  <data key="d9">reported in this paper</data>
+  <data key="d10">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+</edge>
+<edge source="Variable:d_fmax" target="Chunk:chunk_bb79271b66b555df" id="EVIDENCED_BY:ffe33b41ee9f7411">
+  <data key="d8">EVIDENCED_BY</data>
+  <data key="d9">supported by chunk</data>
+  <data key="d10">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+</edge>
+<edge source="Variable:d_fmax" target="Paper:mitra" id="REPORTED_IN:bbc10e05e71d7235">
+  <data key="d8">REPORTED_IN</data>
+  <data key="d9">reported in this paper</data>
+  <data key="d10">mitra.pdf p.8 page_text chunk_9082cc6cb7d7ca45</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.8 page_text chunk_9082cc6cb7d7ca45</data>
+</edge>
+<edge source="Variable:d_fmax" target="Chunk:chunk_9082cc6cb7d7ca45" id="EVIDENCED_BY:a0920c1678a4f3ad">
+  <data key="d8">EVIDENCED_BY</data>
+  <data key="d9">supported by chunk</data>
+  <data key="d10">mitra.pdf p.8 page_text chunk_9082cc6cb7d7ca45</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.8 page_text chunk_9082cc6cb7d7ca45</data>
+</edge>
+<edge source="Variable:psi_a" target="Chunk:chunk_bb79271b66b555df" id="EVIDENCED_BY:b749cc93e67168ad">
+  <data key="d8">EVIDENCED_BY</data>
+  <data key="d9">supported by chunk</data>
+  <data key="d10">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+</edge>
+<edge source="Variable:psi_a" target="Paper:mitra" id="REPORTED_IN:c1dce45936dd04fc">
+  <data key="d8">REPORTED_IN</data>
+  <data key="d9">reported in this paper</data>
+  <data key="d10">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+</edge>
+<edge source="Instrument:sopat" target="Chunk:chunk_bb79271b66b555df" id="EVIDENCED_BY:620057ea3bace98e">
+  <data key="d8">EVIDENCED_BY</data>
+  <data key="d9">supported by chunk</data>
+  <data key="d10">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+</edge>
+<edge source="Instrument:sopat" target="Paper:mitra" id="REPORTED_IN:0dc6e877bd385ada">
+  <data key="d8">REPORTED_IN</data>
+  <data key="d9">reported in this paper</data>
+  <data key="d10">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+</edge>
+<edge source="Method:sopat_image_measurement" target="Chunk:chunk_bb79271b66b555df" id="EVIDENCED_BY:b360b6e4b166ad7a">
+  <data key="d8">EVIDENCED_BY</data>
+  <data key="d9">supported by chunk</data>
+  <data key="d10">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+</edge>
+<edge source="Method:sopat_image_measurement" target="Paper:mitra" id="REPORTED_IN:94bc3a90e13d5b8d">
+  <data key="d8">REPORTED_IN</data>
+  <data key="d9">reported in this paper</data>
+  <data key="d10">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+</edge>
+<edge source="Method:sopat_image_measurement" target="Instrument:sopat" id="USES:06cee52185602a36">
+  <data key="d8">USES</data>
+  <data key="d9">The per-granule descriptor values are obtained from SOPAT images.</data>
+  <data key="d10">from the SOPAT images</data>
+  <data key="d11">0.8</data>
+  <data key="d12">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+  <data key="d13">chunk_bb79271b66b555df</data>
+  <data key="d14">16</data>
+  <data key="d15">mitra.pdf</data>
+</edge>
+<edge source="Method:sopat_image_measurement" target="Variable:d_fmax" id="MEASURES:3dbffd6d6cd91581">
+  <data key="d8">MEASURES</data>
+  <data key="d9">The SOPAT-image-based measurement yields maximum Feret diameter values.</data>
+  <data key="d10">represent the maximum Feret diameter ... from the SOPAT images</data>
+  <data key="d11">0.8</data>
+  <data key="d12">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+  <data key="d13">chunk_bb79271b66b555df</data>
+  <data key="d14">16</data>
+  <data key="d15">mitra.pdf</data>
+</edge>
+<edge source="Method:sopat_image_measurement" target="Variable:psi_a" id="MEASURES:1cb2e785c9465fbd">
+  <data key="d8">MEASURES</data>
+  <data key="d9">The SOPAT-image-based measurement yields aspect ratio values.</data>
+  <data key="d10">and aspect ratio ... from the SOPAT images</data>
+  <data key="d11">0.8</data>
+  <data key="d12">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+  <data key="d13">chunk_bb79271b66b555df</data>
+  <data key="d14">16</data>
+  <data key="d15">mitra.pdf</data>
+</edge>
+<edge source="Concept:epcc" target="Chunk:chunk_bb79271b66b555df" id="EVIDENCED_BY:598385e5af8bea9b">
+  <data key="d8">EVIDENCED_BY</data>
+  <data key="d9">supported by chunk</data>
+  <data key="d10">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+</edge>
+<edge source="Concept:epcc" target="Paper:mitra" id="REPORTED_IN:285b16c3e8b969a3">
+  <data key="d8">REPORTED_IN</data>
+  <data key="d9">reported in this paper</data>
+  <data key="d10">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+</edge>
+<edge source="Concept:epcc" target="Document:doc_mitra_p16" id="REPORTED_IN:0cc95b53bf91a9ee">
+  <data key="d8">REPORTED_IN</data>
+  <data key="d9">The chunk introduces EPCC as the metric used to quantify linear correlation.</data>
+  <data key="d10">the empirical Pearson correlation coefficients (EPCC) were considered</data>
+  <data key="d11">0.9</data>
+  <data key="d12">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+  <data key="d13">chunk_bb79271b66b555df</data>
+  <data key="d14">16</data>
+  <data key="d15">mitra.pdf</data>
+</edge>
+<edge source="Concept:epcc" target="Equation:eq_epcc_9" id="DERIVED_FROM:87c344636bcfb582">
+  <data key="d8">DERIVED_FROM</data>
+  <data key="d9">EPCC is defined by Equation (9).</data>
+  <data key="d10">EPCC(x,y) = ... , (9)</data>
+  <data key="d11">0.9</data>
+  <data key="d12">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+  <data key="d13">chunk_bb79271b66b555df</data>
+  <data key="d14">16</data>
+  <data key="d15">mitra.pdf</data>
+</edge>
+<edge source="Equation:eq_epcc_9" target="Chunk:chunk_bb79271b66b555df" id="EVIDENCED_BY:d1dcc5c9a48c8873">
+  <data key="d8">EVIDENCED_BY</data>
+  <data key="d9">supported by chunk</data>
+  <data key="d10">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+</edge>
+<edge source="Equation:eq_epcc_9" target="Paper:mitra" id="REPORTED_IN:3ad0b6d5cf827f7c">
+  <data key="d8">REPORTED_IN</data>
+  <data key="d9">reported in this paper</data>
+  <data key="d10">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+</edge>
+<edge source="Equation:eq_epcc_9" target="Variable:x_mean" id="MENTIONS:6b4daa66beb705b6">
+  <data key="d8">MENTIONS</data>
+  <data key="d9">Equation (9) specifies x as the mean of x values.</data>
+  <data key="d10">where x and y are the means of the x and y values</data>
+  <data key="d11">0.85</data>
+  <data key="d12">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+  <data key="d13">chunk_bb79271b66b555df</data>
+  <data key="d14">16</data>
+  <data key="d15">mitra.pdf</data>
+</edge>
+<edge source="Equation:eq_epcc_9" target="Variable:y_mean" id="MENTIONS:9b42261fe4c28390">
+  <data key="d8">MENTIONS</data>
+  <data key="d9">Equation (9) specifies y as the mean of y values.</data>
+  <data key="d10">where x and y are the means of the x and y values</data>
+  <data key="d11">0.85</data>
+  <data key="d12">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+  <data key="d13">chunk_bb79271b66b555df</data>
+  <data key="d14">16</data>
+  <data key="d15">mitra.pdf</data>
+</edge>
+<edge source="Equation:eq_epcc_9" target="Variable:x_i" id="MENTIONS:0d78fbb4477facce">
+  <data key="d8">MENTIONS</data>
+  <data key="d9">Equation (9) uses per-sample x_i values.</data>
+  <data key="d10">∑n i=1 (x_i − x)</data>
+  <data key="d11">0.8</data>
+  <data key="d12">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+  <data key="d13">chunk_bb79271b66b555df</data>
+  <data key="d14">16</data>
+  <data key="d15">mitra.pdf</data>
+</edge>
+<edge source="Equation:eq_epcc_9" target="Variable:y_i" id="MENTIONS:43c3c6620a5a83d0">
+  <data key="d8">MENTIONS</data>
+  <data key="d9">Equation (9) uses per-sample y_i values.</data>
+  <data key="d10">∑n i=1 (y_i − y)</data>
+  <data key="d11">0.8</data>
+  <data key="d12">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+  <data key="d13">chunk_bb79271b66b555df</data>
+  <data key="d14">16</data>
+  <data key="d15">mitra.pdf</data>
+</edge>
+<edge source="Variable:x_i" target="Chunk:chunk_bb79271b66b555df" id="EVIDENCED_BY:4ecd402d5cfc3141">
+  <data key="d8">EVIDENCED_BY</data>
+  <data key="d9">supported by chunk</data>
+  <data key="d10">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+</edge>
+<edge source="Variable:x_i" target="Paper:mitra" id="REPORTED_IN:b2948bb0144f5e3a">
+  <data key="d8">REPORTED_IN</data>
+  <data key="d9">reported in this paper</data>
+  <data key="d10">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+</edge>
+<edge source="Variable:x_i" target="Variable:d_fmax" id="HAS_DESCRIPTOR:fb3d8b8dc36158e6">
+  <data key="d8">HAS_DESCRIPTOR</data>
+  <data key="d9">x_i corresponds to the maximum Feret diameter descriptor for the i-th granule.</data>
+  <data key="d10">x_i represent the maximum Feret diameter</data>
+  <data key="d11">0.85</data>
+  <data key="d12">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+  <data key="d13">chunk_bb79271b66b555df</data>
+  <data key="d14">16</data>
+  <data key="d15">mitra.pdf</data>
+</edge>
+<edge source="Variable:y_i" target="Chunk:chunk_bb79271b66b555df" id="EVIDENCED_BY:c6ed459407a03ab4">
+  <data key="d8">EVIDENCED_BY</data>
+  <data key="d9">supported by chunk</data>
+  <data key="d10">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+</edge>
+<edge source="Variable:y_i" target="Paper:mitra" id="REPORTED_IN:a1032f0d460120a3">
+  <data key="d8">REPORTED_IN</data>
+  <data key="d9">reported in this paper</data>
+  <data key="d10">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+</edge>
+<edge source="Variable:y_i" target="Variable:psi_a" id="HAS_DESCRIPTOR:d8b8c76a67c0f91e">
+  <data key="d8">HAS_DESCRIPTOR</data>
+  <data key="d9">y_i corresponds to the aspect ratio descriptor for the i-th granule.</data>
+  <data key="d10">and aspect ratio of the i-th granule</data>
+  <data key="d11">0.85</data>
+  <data key="d12">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+  <data key="d13">chunk_bb79271b66b555df</data>
+  <data key="d14">16</data>
+  <data key="d15">mitra.pdf</data>
+</edge>
+<edge source="Variable:x_mean" target="Chunk:chunk_bb79271b66b555df" id="EVIDENCED_BY:316a91258c1d53de">
+  <data key="d8">EVIDENCED_BY</data>
+  <data key="d9">supported by chunk</data>
+  <data key="d10">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+</edge>
+<edge source="Variable:x_mean" target="Paper:mitra" id="REPORTED_IN:7403f6b3b3ccf771">
+  <data key="d8">REPORTED_IN</data>
+  <data key="d9">reported in this paper</data>
+  <data key="d10">mitra.pdf p.16 equation_candidate chunk_1c86e251de2cb8bc</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.16 equation_candidate chunk_1c86e251de2cb8bc</data>
+</edge>
+<edge source="Variable:x_mean" target="Chunk:chunk_1c86e251de2cb8bc" id="EVIDENCED_BY:47c4915cfdb9130d">
+  <data key="d8">EVIDENCED_BY</data>
+  <data key="d9">supported by chunk</data>
+  <data key="d10">mitra.pdf p.16 equation_candidate chunk_1c86e251de2cb8bc</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.16 equation_candidate chunk_1c86e251de2cb8bc</data>
+</edge>
+<edge source="Variable:x_mean" target="Variable:xi" id="DERIVED_FROM:343e00ea8454f443">
+  <data key="d8">DERIVED_FROM</data>
+  <data key="d9">The mean x is defined as the mean of the x_i values.</data>
+  <data key="d10">x and y are the means of the x i and y i values, respectively</data>
+  <data key="d11">0.85</data>
+  <data key="d12">mitra.pdf p.16 equation_candidate chunk_1c86e251de2cb8bc</data>
+  <data key="d13">chunk_1c86e251de2cb8bc</data>
+  <data key="d14">16</data>
+  <data key="d15">mitra.pdf</data>
+</edge>
+<edge source="Variable:y_mean" target="Chunk:chunk_bb79271b66b555df" id="EVIDENCED_BY:4be465f62dc84232">
+  <data key="d8">EVIDENCED_BY</data>
+  <data key="d9">supported by chunk</data>
+  <data key="d10">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+</edge>
+<edge source="Variable:y_mean" target="Paper:mitra" id="REPORTED_IN:3b5a34c68e4bc0d9">
+  <data key="d8">REPORTED_IN</data>
+  <data key="d9">reported in this paper</data>
+  <data key="d10">mitra.pdf p.16 equation_candidate chunk_1c86e251de2cb8bc</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.16 equation_candidate chunk_1c86e251de2cb8bc</data>
+</edge>
+<edge source="Variable:y_mean" target="Chunk:chunk_1c86e251de2cb8bc" id="EVIDENCED_BY:8d19ff710ac516b5">
+  <data key="d8">EVIDENCED_BY</data>
+  <data key="d9">supported by chunk</data>
+  <data key="d10">mitra.pdf p.16 equation_candidate chunk_1c86e251de2cb8bc</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.16 equation_candidate chunk_1c86e251de2cb8bc</data>
+</edge>
+<edge source="Variable:y_mean" target="Variable:yi" id="DERIVED_FROM:c376887d3c38f21c">
+  <data key="d8">DERIVED_FROM</data>
+  <data key="d9">The mean y is defined as the mean of the y_i values.</data>
+  <data key="d10">x and y are the means of the x i and y i values, respectively</data>
+  <data key="d11">0.85</data>
+  <data key="d12">mitra.pdf p.16 equation_candidate chunk_1c86e251de2cb8bc</data>
+  <data key="d13">chunk_1c86e251de2cb8bc</data>
+  <data key="d14">16</data>
+  <data key="d15">mitra.pdf</data>
+</edge>
+<edge source="Dataset:experiments_f_set" target="Chunk:chunk_bb79271b66b555df" id="EVIDENCED_BY:e6871106d63c4211">
+  <data key="d8">EVIDENCED_BY</data>
+  <data key="d9">supported by chunk</data>
+  <data key="d10">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+</edge>
+<edge source="Dataset:experiments_f_set" target="Paper:mitra" id="REPORTED_IN:43a183151cc28219">
+  <data key="d8">REPORTED_IN</data>
+  <data key="d9">reported in this paper</data>
+  <data key="d10">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+</edge>
+<edge source="Finding:finding_no_linear_corr" target="Chunk:chunk_bb79271b66b555df" id="EVIDENCED_BY:a7d8171a41548ab1">
+  <data key="d8">EVIDENCED_BY</data>
+  <data key="d9">supported by chunk</data>
+  <data key="d10">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+</edge>
+<edge source="Finding:finding_no_linear_corr" target="Paper:mitra" id="REPORTED_IN:f9f4c1ee6e8e2f58">
+  <data key="d8">REPORTED_IN</data>
+  <data key="d9">reported in this paper</data>
+  <data key="d10">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+</edge>
+<edge source="Finding:finding_no_linear_corr" target="Dataset:experiments_f_set" id="APPLIES_TO:ae65e31d65a1269a">
+  <data key="d8">APPLIES_TO</data>
+  <data key="d9">The near-zero EPCC result is reported for the listed experiments.</data>
+  <data key="d10">For the experiments F1B2, F2B2, F3B2, F1B1, F1B3, and F1B4</data>
+  <data key="d11">0.85</data>
+  <data key="d12">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+  <data key="d13">chunk_bb79271b66b555df</data>
+  <data key="d14">16</data>
+  <data key="d15">mitra.pdf</data>
+</edge>
+<edge source="Finding:finding_no_linear_corr" target="Concept:epcc" id="EVIDENCED_BY:1a07a3b686f3312b">
+  <data key="d8">EVIDENCED_BY</data>
+  <data key="d9">Little to no linear correlation is supported by EPCC values close to 0 and below 0.02.</data>
+  <data key="d10">EPCC had values close to 0 (EPCC &lt; 0.02), indicating little to no linear correlation</data>
+  <data key="d11">0.9</data>
+  <data key="d12">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+  <data key="d13">chunk_bb79271b66b555df</data>
+  <data key="d14">16</data>
+  <data key="d15">mitra.pdf</data>
+</edge>
+<edge source="Finding:finding_no_linear_corr" target="Variable:d_fmax" id="MENTIONS:08514a25965ee60b">
+  <data key="d8">MENTIONS</data>
+  <data key="d9">The finding concerns maximum Feret diameter as one of the two descriptors.</data>
+  <data key="d10">the granule descriptors d_Fmax and Ψ_A</data>
+  <data key="d11">0.8</data>
+  <data key="d12">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+  <data key="d13">chunk_bb79271b66b555df</data>
+  <data key="d14">16</data>
+  <data key="d15">mitra.pdf</data>
+</edge>
+<edge source="Finding:finding_no_linear_corr" target="Variable:psi_a" id="MENTIONS:1b1e57b5746cdfd2">
+  <data key="d8">MENTIONS</data>
+  <data key="d9">The finding concerns aspect ratio as one of the two descriptors.</data>
+  <data key="d10">the granule descriptors d_Fmax and Ψ_A</data>
+  <data key="d11">0.8</data>
+  <data key="d12">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+  <data key="d13">chunk_bb79271b66b555df</data>
+  <data key="d14">16</data>
+  <data key="d15">mitra.pdf</data>
+</edge>
+<edge source="Finding:finding_no_linear_corr" target="Limitation:lim_independence_assumption" id="SUPPORTS:2cd87cfb9e80da31">
+  <data key="d8">SUPPORTS</data>
+  <data key="d9">Near-zero EPCC values are used to justify treating the descriptors as independent (and neglecting dependency modeling).</data>
+  <data key="d10">observed near-zero EPCC values suggest ... thus, for simplicity, any modeling of their dependency will be neglected</data>
+  <data key="d11">0.85</data>
+  <data key="d12">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+  <data key="d13">chunk_bb79271b66b555df</data>
+  <data key="d14">16</data>
+  <data key="d15">mitra.pdf</data>
+</edge>
+<edge source="Limitation:lim_independence_assumption" target="Chunk:chunk_bb79271b66b555df" id="EVIDENCED_BY:4889d33334c5da52">
+  <data key="d8">EVIDENCED_BY</data>
+  <data key="d9">supported by chunk</data>
+  <data key="d10">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+</edge>
+<edge source="Limitation:lim_independence_assumption" target="Paper:mitra" id="REPORTED_IN:d161b6ed19efa557">
+  <data key="d8">REPORTED_IN</data>
+  <data key="d9">reported in this paper</data>
+  <data key="d10">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+</edge>
+<edge source="Limitation:lim_independence_assumption" target="Variable:d_fmax" id="APPLIES_TO:cf9ea506e4c96b44">
+  <data key="d8">APPLIES_TO</data>
+  <data key="d9">Independence assumption applies to maximum Feret diameter in the joint modeling.</data>
+  <data key="d10">maximum Feret diameter and aspect ratio, which are assumed to be independent random variables</data>
+  <data key="d11">0.85</data>
+  <data key="d12">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+  <data key="d13">chunk_bb79271b66b555df</data>
+  <data key="d14">16</data>
+  <data key="d15">mitra.pdf</data>
+</edge>
+<edge source="Limitation:lim_independence_assumption" target="Variable:psi_a" id="APPLIES_TO:8f967db590b60eda">
+  <data key="d8">APPLIES_TO</data>
+  <data key="d9">Independence assumption applies to aspect ratio in the joint modeling.</data>
+  <data key="d10">maximum Feret diameter and aspect ratio, which are assumed to be independent random variables</data>
+  <data key="d11">0.85</data>
+  <data key="d12">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+  <data key="d13">chunk_bb79271b66b555df</data>
+  <data key="d14">16</data>
+  <data key="d15">mitra.pdf</data>
+</edge>
+<edge source="Finding:finding_neglect_dependency" target="Chunk:chunk_bb79271b66b555df" id="EVIDENCED_BY:b1f7d45f424357af">
+  <data key="d8">EVIDENCED_BY</data>
+  <data key="d9">supported by chunk</data>
+  <data key="d10">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+</edge>
+<edge source="Finding:finding_neglect_dependency" target="Paper:mitra" id="REPORTED_IN:463ff20864cb211e">
+  <data key="d8">REPORTED_IN</data>
+  <data key="d9">reported in this paper</data>
+  <data key="d10">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+</edge>
+<edge source="Finding:finding_neglect_dependency" target="Finding:finding_no_linear_corr" id="DERIVED_FROM:2a063a88743a0881">
+  <data key="d8">DERIVED_FROM</data>
+  <data key="d9">The decision to neglect dependency modeling is based on the near-zero correlation observation.</data>
+  <data key="d10">The observed near-zero EPCC values suggest ... and thus, for simplicity, any modeling of their dependency will be neglected</data>
+  <data key="d11">0.85</data>
+  <data key="d12">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+  <data key="d13">chunk_bb79271b66b555df</data>
+  <data key="d14">16</data>
+  <data key="d15">mitra.pdf</data>
+</edge>
+<edge source="Concept:joint_bivariate_densities" target="Chunk:chunk_bb79271b66b555df" id="EVIDENCED_BY:7365f980e232c371">
+  <data key="d8">EVIDENCED_BY</data>
+  <data key="d9">supported by chunk</data>
+  <data key="d10">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+</edge>
+<edge source="Concept:joint_bivariate_densities" target="Paper:mitra" id="REPORTED_IN:8b63397d5b3ac8de">
+  <data key="d8">REPORTED_IN</data>
+  <data key="d9">reported in this paper</data>
+  <data key="d10">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+</edge>
+<edge source="Concept:joint_bivariate_densities" target="Limitation:lim_independence_assumption" id="LIMITED_BY:47f6a331a6a12cdf">
+  <data key="d8">LIMITED_BY</data>
+  <data key="d9">The joint predicted probability densities are constructed under an independence assumption.</data>
+  <data key="d10">joint predicted probability densities ... which are assumed to be independent random variables</data>
+  <data key="d11">0.85</data>
+  <data key="d12">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+  <data key="d13">chunk_bb79271b66b555df</data>
+  <data key="d14">16</data>
+  <data key="d15">mitra.pdf</data>
+</edge>
+<edge source="Method:fitted_parametric_densities" target="Chunk:chunk_bb79271b66b555df" id="EVIDENCED_BY:c5e492ca9dc7a251">
+  <data key="d8">EVIDENCED_BY</data>
+  <data key="d9">supported by chunk</data>
+  <data key="d10">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+</edge>
+<edge source="Method:fitted_parametric_densities" target="Paper:mitra" id="REPORTED_IN:925a83c6027b02a0">
+  <data key="d8">REPORTED_IN</data>
+  <data key="d9">reported in this paper</data>
+  <data key="d10">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+</edge>
+<edge source="Method:fitted_parametric_densities" target="Dataset:experiments_f_set" id="APPLIES_TO:49f6d82f0f060ca4">
+  <data key="d8">APPLIES_TO</data>
+  <data key="d9">Fitted densities are shown for specific experiments in the set.</data>
+  <data key="d10">the fitted densities for the experiments F1B2, F2B2, F1B3, and F1B4</data>
+  <data key="d11">0.75</data>
+  <data key="d12">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+  <data key="d13">chunk_bb79271b66b555df</data>
+  <data key="d14">16</data>
+  <data key="d15">mitra.pdf</data>
+</edge>
+<edge source="Finding:finding_high_agreement" target="Chunk:chunk_bb79271b66b555df" id="EVIDENCED_BY:50c4024c064d044a">
+  <data key="d8">EVIDENCED_BY</data>
+  <data key="d9">supported by chunk</data>
+  <data key="d10">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+</edge>
+<edge source="Finding:finding_high_agreement" target="Paper:mitra" id="REPORTED_IN:da65b8f456f2aaf6">
+  <data key="d8">REPORTED_IN</data>
+  <data key="d9">reported in this paper</data>
+  <data key="d10">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+</edge>
+<edge source="Finding:finding_high_agreement" target="Method:fitted_parametric_densities" id="SUPPORTS:6069db04d9adacc4">
+  <data key="d8">SUPPORTS</data>
+  <data key="d9">The chunk reports that fitted parametric densities agree well with measured descriptors.</data>
+  <data key="d10">high agreement of the fitted parametric probability densities with the displayed measured granule descriptors</data>
+  <data key="d11">0.8</data>
+  <data key="d12">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+  <data key="d13">chunk_bb79271b66b555df</data>
+  <data key="d14">16</data>
+  <data key="d15">mitra.pdf</data>
+</edge>
+<edge source="Variable:feed_rate" target="Chunk:chunk_bb79271b66b555df" id="EVIDENCED_BY:bcaf5c6115335cdd">
+  <data key="d8">EVIDENCED_BY</data>
+  <data key="d9">supported by chunk</data>
+  <data key="d10">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+</edge>
+<edge source="Variable:feed_rate" target="Paper:mitra" id="REPORTED_IN:caa73c09ab7c0259">
+  <data key="d8">REPORTED_IN</data>
+  <data key="d9">reported in this paper</data>
+  <data key="d10">mitra.pdf p.9 page_text chunk_292a513b17ac9374</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.9 page_text chunk_292a513b17ac9374</data>
+</edge>
+<edge source="Variable:feed_rate" target="Concept:joint_bivariate_densities" id="INFLUENCES:7360648eb05314ad">
+  <data key="d8">INFLUENCES</data>
+  <data key="d9">The joint probability densities are shown for specified feed rates as process parameters.</data>
+  <data key="d10">these probability densities are shown for a feed rate of 12.5 mL min−1 ... as well as a feed rate of 11 mL min−1</data>
+  <data key="d11">0.7</data>
+  <data key="d12">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+  <data key="d13">chunk_bb79271b66b555df</data>
+  <data key="d14">16</data>
+  <data key="d15">mitra.pdf</data>
+</edge>
+<edge source="Variable:feed_rate" target="Chunk:chunk_895bf8c81d74ac37" id="EVIDENCED_BY:7b5bdbbd8827159a">
+  <data key="d8">EVIDENCED_BY</data>
+  <data key="d9">supported by chunk</data>
+  <data key="d10">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+</edge>
+<edge source="Variable:feed_rate" target="Concept:atomization_process" id="INFLUENCES:f9923640554474ad">
+  <data key="d8">INFLUENCES</data>
+  <data key="d9">Feed rate is investigated for its influence on the atomization process.</data>
+  <data key="d10">influence of feed rate and binder concentration on the atomization process</data>
+  <data key="d11">0.85</data>
+  <data key="d12">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+  <data key="d13">chunk_895bf8c81d74ac37</data>
+  <data key="d14">10</data>
+  <data key="d15">mitra.pdf</data>
+</edge>
+<edge source="Variable:feed_rate" target="Chunk:chunk_07eaf63ef31d9e7c" id="EVIDENCED_BY:55523d429bf24499">
+  <data key="d8">EVIDENCED_BY</data>
+  <data key="d9">supported by chunk</data>
+  <data key="d10">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+</edge>
+<edge source="Variable:feed_rate" target="Chunk:chunk_292a513b17ac9374" id="EVIDENCED_BY:cfb166002641db77">
+  <data key="d8">EVIDENCED_BY</data>
+  <data key="d9">supported by chunk</data>
+  <data key="d10">mitra.pdf p.9 page_text chunk_292a513b17ac9374</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.9 page_text chunk_292a513b17ac9374</data>
+</edge>
+<edge source="Variable:feed_rate" target="Concept:size_distribution" id="INFLUENCES:8dfa002b054b7d14">
+  <data key="d8">INFLUENCES</data>
+  <data key="d9">Feed rate is a process parameter whose effect will be compared on granule size distribution.</data>
+  <data key="d10">comparetheeffectsofdifferentprocessparameters(feedrate andbinderconcentration)onthesizedistribution</data>
+  <data key="d11">0.75</data>
+  <data key="d12">mitra.pdf p.9 page_text chunk_292a513b17ac9374</data>
+  <data key="d13">chunk_292a513b17ac9374</data>
+  <data key="d14">9</data>
+  <data key="d15">mitra.pdf</data>
+</edge>
+<edge source="Variable:feed_rate" target="Concept:shape_uniformity" id="INFLUENCES:df8d02844ce07613">
+  <data key="d8">INFLUENCES</data>
+  <data key="d9">Feed rate is a process parameter whose effect will be compared on granule shape uniformity.</data>
+  <data key="d10">andshapeuniformityofthegranules</data>
+  <data key="d11">0.65</data>
+  <data key="d12">mitra.pdf p.9 page_text chunk_292a513b17ac9374</data>
+  <data key="d13">chunk_292a513b17ac9374</data>
+  <data key="d14">9</data>
+  <data key="d15">mitra.pdf</data>
+</edge>
+<edge source="Variable:binder_concentration" target="Chunk:chunk_bb79271b66b555df" id="EVIDENCED_BY:85722b66f80f7ff6">
+  <data key="d8">EVIDENCED_BY</data>
+  <data key="d9">supported by chunk</data>
+  <data key="d10">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+</edge>
+<edge source="Variable:binder_concentration" target="Paper:mitra" id="REPORTED_IN:09046a14f72eb283">
+  <data key="d8">REPORTED_IN</data>
+  <data key="d9">reported in this paper</data>
+  <data key="d10">mitra.pdf p.9 page_text chunk_292a513b17ac9374</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.9 page_text chunk_292a513b17ac9374</data>
+</edge>
+<edge source="Variable:binder_concentration" target="Concept:joint_bivariate_densities" id="INFLUENCES:235983665cef9e8f">
+  <data key="d8">INFLUENCES</data>
+  <data key="d9">The joint probability densities are shown for specified binder concentrations as process parameters.</data>
+  <data key="d10">a binder concentration of 0.8 wt% ... and a binder concentration of 2.4 wt%</data>
+  <data key="d11">0.7</data>
+  <data key="d12">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+  <data key="d13">chunk_bb79271b66b555df</data>
+  <data key="d14">16</data>
+  <data key="d15">mitra.pdf</data>
+</edge>
+<edge source="Variable:binder_concentration" target="Chunk:chunk_895bf8c81d74ac37" id="EVIDENCED_BY:d1a7c290bb3f36cb">
+  <data key="d8">EVIDENCED_BY</data>
+  <data key="d9">supported by chunk</data>
+  <data key="d10">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+</edge>
+<edge source="Variable:binder_concentration" target="Concept:atomization_process" id="INFLUENCES:bab1289cf94185a6">
+  <data key="d8">INFLUENCES</data>
+  <data key="d9">Binder concentration is investigated for its influence on the atomization process.</data>
+  <data key="d10">influence of feed rate and binder concentration on the atomization process</data>
+  <data key="d11">0.85</data>
+  <data key="d12">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+  <data key="d13">chunk_895bf8c81d74ac37</data>
+  <data key="d14">10</data>
+  <data key="d15">mitra.pdf</data>
+</edge>
+<edge source="Variable:binder_concentration" target="Chunk:chunk_07eaf63ef31d9e7c" id="EVIDENCED_BY:43cb393489fae676">
+  <data key="d8">EVIDENCED_BY</data>
+  <data key="d9">supported by chunk</data>
+  <data key="d10">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+</edge>
+<edge source="Variable:binder_concentration" target="Chunk:chunk_292a513b17ac9374" id="EVIDENCED_BY:880937ee189723bc">
+  <data key="d8">EVIDENCED_BY</data>
+  <data key="d9">supported by chunk</data>
+  <data key="d10">mitra.pdf p.9 page_text chunk_292a513b17ac9374</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.9 page_text chunk_292a513b17ac9374</data>
+</edge>
+<edge source="Variable:binder_concentration" target="Concept:size_distribution" id="INFLUENCES:332cde3954afc27c">
+  <data key="d8">INFLUENCES</data>
+  <data key="d9">Binder concentration is a process parameter whose effect will be compared on granule size distribution.</data>
+  <data key="d10">comparetheeffectsofdifferentprocessparameters(feedrate andbinderconcentration)onthesizedistribution</data>
+  <data key="d11">0.75</data>
+  <data key="d12">mitra.pdf p.9 page_text chunk_292a513b17ac9374</data>
+  <data key="d13">chunk_292a513b17ac9374</data>
+  <data key="d14">9</data>
+  <data key="d15">mitra.pdf</data>
+</edge>
+<edge source="Variable:binder_concentration" target="Concept:shape_uniformity" id="INFLUENCES:dba805b4e3c87556">
+  <data key="d8">INFLUENCES</data>
+  <data key="d9">Binder concentration is a process parameter whose effect will be compared on granule shape uniformity.</data>
+  <data key="d10">andshapeuniformityofthegranules</data>
+  <data key="d11">0.65</data>
+  <data key="d12">mitra.pdf p.9 page_text chunk_292a513b17ac9374</data>
+  <data key="d13">chunk_292a513b17ac9374</data>
+  <data key="d14">9</data>
+  <data key="d15">mitra.pdf</data>
+</edge>
+<edge source="Equation:theta_equals_g_of_z" target="Chunk:chunk_bb79271b66b555df" id="EVIDENCED_BY:d545b6755c0e0709">
+  <data key="d8">EVIDENCED_BY</data>
+  <data key="d9">supported by chunk</data>
+  <data key="d10">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+</edge>
+<edge source="Equation:theta_equals_g_of_z" target="Paper:mitra" id="REPORTED_IN:4d61b423e0d74fc7">
+  <data key="d8">REPORTED_IN</data>
+  <data key="d9">reported in this paper</data>
+  <data key="d10">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+</edge>
+<edge source="Equation:theta_equals_g_of_z" target="Variable:z_concentration" id="DERIVED_FROM:86be8cc098fb2aa8">
+  <data key="d8">DERIVED_FROM</data>
+  <data key="d9">The model parameters θ are expressed as a function of concentration z.</data>
+  <data key="d10">θ = g(z)</data>
+  <data key="d11">0.8</data>
+  <data key="d12">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+  <data key="d13">chunk_bb79271b66b555df</data>
+  <data key="d14">16</data>
+  <data key="d15">mitra.pdf</data>
+</edge>
+<edge source="Variable:z_concentration" target="Chunk:chunk_bb79271b66b555df" id="EVIDENCED_BY:d8c43b4f0586de06">
+  <data key="d8">EVIDENCED_BY</data>
+  <data key="d9">supported by chunk</data>
+  <data key="d10">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+</edge>
+<edge source="Variable:z_concentration" target="Paper:mitra" id="REPORTED_IN:b8e382aac34a18af">
+  <data key="d8">REPORTED_IN</data>
+  <data key="d9">reported in this paper</data>
+  <data key="d10">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+</edge>
+<edge source="Variable:z_concentration" target="Document:doc_mitra_p16" id="REPORTED_IN:57be72019dfb32e0">
+  <data key="d8">REPORTED_IN</data>
+  <data key="d9">The chunk specifies the range of concentrations z considered.</data>
+  <data key="d10">arbitrary concentrations z ∈ [0.8, 3.2]</data>
+  <data key="d11">0.8</data>
+  <data key="d12">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+  <data key="d13">chunk_bb79271b66b555df</data>
+  <data key="d14">16</data>
+  <data key="d15">mitra.pdf</data>
+</edge>
+<edge source="Equation:eq_7_8_ref" target="Chunk:chunk_bb79271b66b555df" id="EVIDENCED_BY:fb18f06e9139b84f">
+  <data key="d8">EVIDENCED_BY</data>
+  <data key="d9">supported by chunk</data>
+  <data key="d10">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+</edge>
+<edge source="Equation:eq_7_8_ref" target="Paper:mitra" id="REPORTED_IN:1c62e2a27743c943">
+  <data key="d8">REPORTED_IN</data>
+  <data key="d9">reported in this paper</data>
+  <data key="d10">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+</edge>
+<edge source="Method:prob_density_prediction" target="Chunk:chunk_bb79271b66b555df" id="EVIDENCED_BY:45ec10fb912914f0">
+  <data key="d8">EVIDENCED_BY</data>
+  <data key="d9">supported by chunk</data>
+  <data key="d10">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+</edge>
+<edge source="Method:prob_density_prediction" target="Paper:mitra" id="REPORTED_IN:aa5eb2c428df8acd">
+  <data key="d8">REPORTED_IN</data>
+  <data key="d9">reported in this paper</data>
+  <data key="d10">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+</edge>
+<edge source="Method:prob_density_prediction" target="Equation:theta_equals_g_of_z" id="USES:dba509b795b95e6b">
+  <data key="d8">USES</data>
+  <data key="d9">Predicted model parameters θ=g(z) are inserted as part of density prediction.</data>
+  <data key="d10">By inserting the predicted model parameters θ = g(z)</data>
+  <data key="d11">0.85</data>
+  <data key="d12">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+  <data key="d13">chunk_bb79271b66b555df</data>
+  <data key="d14">16</data>
+  <data key="d15">mitra.pdf</data>
+</edge>
+<edge source="Method:prob_density_prediction" target="Equation:eq_7_8_ref" id="USES:755a519e8e4df30e">
+  <data key="d8">USES</data>
+  <data key="d9">Density prediction is performed by inserting predicted parameters into Equations (7) and (8).</data>
+  <data key="d10">into Equations (7) and (8), predictions for the probability densities</data>
+  <data key="d11">0.85</data>
+  <data key="d12">mitra.pdf p.16 page_text chunk_bb79271b66b555df</data>
+  <data key="d13">chunk_bb79271b66b555df</data>
+  <data key="d14">16</data>
+  <data key="d15">mitra.pdf</data>
+</edge>
+<edge source="Chunk:chunk_895bf8c81d74ac37" target="Paper:mitra" id="PART_OF:chunk_895bf8c81d74ac37">
+  <data key="d8">PART_OF</data>
+  <data key="d9">chunk belongs to paper</data>
+  <data key="d10">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+</edge>
+<edge source="Document:doc_mitra_p10" target="Chunk:chunk_895bf8c81d74ac37" id="EVIDENCED_BY:65faf87594d06871">
+  <data key="d8">EVIDENCED_BY</data>
+  <data key="d9">supported by chunk</data>
+  <data key="d10">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+</edge>
+<edge source="Document:doc_mitra_p10" target="Paper:mitra" id="REPORTED_IN:24c6f0ea55232bf8">
+  <data key="d8">REPORTED_IN</data>
+  <data key="d9">reported in this paper</data>
+  <data key="d10">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+</edge>
+<edge source="Document:doc_mitra_p10" target="Method:mle" id="MENTIONS:df5e0a659914ad2d">
+  <data key="d8">MENTIONS</data>
+  <data key="d9">The document chunk mentions maximum likelihood estimation for parameter fitting.</data>
+  <data key="d10">by means of maximum likelihood estimation</data>
+  <data key="d11">0.95</data>
+  <data key="d12">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+  <data key="d13">chunk_895bf8c81d74ac37</data>
+  <data key="d14">10</data>
+  <data key="d15">mitra.pdf</data>
+</edge>
+<edge source="Document:doc_mitra_p10" target="Instrument:hiwatch_s_ptv" id="MENTIONS:46b47cd6a471dbac">
+  <data key="d8">MENTIONS</data>
+  <data key="d9">The document chunk mentions the HiWatchS-PTV system for droplet data acquisition.</data>
+  <data key="d10">Using the HiWatchS-PTV system</data>
+  <data key="d11">0.95</data>
+  <data key="d12">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+  <data key="d13">chunk_895bf8c81d74ac37</data>
+  <data key="d14">10</data>
+  <data key="d15">mitra.pdf</data>
+</edge>
+<edge source="Method:mle" target="Chunk:chunk_895bf8c81d74ac37" id="EVIDENCED_BY:767b8c7488beeeca">
+  <data key="d8">EVIDENCED_BY</data>
+  <data key="d9">supported by chunk</data>
+  <data key="d10">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+</edge>
+<edge source="Method:mle" target="Paper:mitra" id="REPORTED_IN:8a211708f0306983">
+  <data key="d8">REPORTED_IN</data>
+  <data key="d9">reported in this paper</data>
+  <data key="d10">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+</edge>
+<edge source="Method:mle" target="Concept:likelihood_l" id="USES:fb76d03e0398a4fd">
+  <data key="d8">USES</data>
+  <data key="d9">Maximum likelihood estimation determines optimal parameter values by maximizing the likelihood function L.</data>
+  <data key="d10">by means of maximum likelihood estimation... the optimal parameter values... can be determined by maximizing the likelihood function</data>
+  <data key="d11">0.9</data>
+  <data key="d12">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+  <data key="d13">chunk_895bf8c81d74ac37</data>
+  <data key="d14">10</data>
+  <data key="d15">mitra.pdf</data>
+</edge>
+<edge source="Concept:likelihood_l" target="Chunk:chunk_895bf8c81d74ac37" id="EVIDENCED_BY:2a7107edfa2b4ad7">
+  <data key="d8">EVIDENCED_BY</data>
+  <data key="d9">supported by chunk</data>
+  <data key="d10">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+</edge>
+<edge source="Concept:likelihood_l" target="Paper:mitra" id="REPORTED_IN:6321717a72a884e0">
+  <data key="d8">REPORTED_IN</data>
+  <data key="d9">reported in this paper</data>
+  <data key="d10">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+</edge>
+<edge source="Equation:eq3_likelihood" target="Chunk:chunk_895bf8c81d74ac37" id="EVIDENCED_BY:d69c1cefcd955306">
+  <data key="d8">EVIDENCED_BY</data>
+  <data key="d9">supported by chunk</data>
+  <data key="d10">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+</edge>
+<edge source="Equation:eq3_likelihood" target="Paper:mitra" id="REPORTED_IN:90bdd8a3d08aee99">
+  <data key="d8">REPORTED_IN</data>
+  <data key="d9">reported in this paper</data>
+  <data key="d10">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+</edge>
+<edge source="Equation:eq3_likelihood" target="Concept:likelihood_l" id="REPORTED_IN:7f3fbc4c80e5de21">
+  <data key="d8">REPORTED_IN</data>
+  <data key="d9">Equation (3) reports the mathematical form of the likelihood function L.</data>
+  <data key="d10">the likelihood function L: Θn →R was considered, which is given by ... (3)</data>
+  <data key="d11">0.9</data>
+  <data key="d12">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+  <data key="d13">chunk_895bf8c81d74ac37</data>
+  <data key="d14">10</data>
+  <data key="d15">mitra.pdf</data>
+</edge>
+<edge source="Equation:eq4_argmax" target="Chunk:chunk_895bf8c81d74ac37" id="EVIDENCED_BY:730361c5f7d4abdd">
+  <data key="d8">EVIDENCED_BY</data>
+  <data key="d9">supported by chunk</data>
+  <data key="d10">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+</edge>
+<edge source="Equation:eq4_argmax" target="Paper:mitra" id="REPORTED_IN:d04cd8a1e6bfaa69">
+  <data key="d8">REPORTED_IN</data>
+  <data key="d9">reported in this paper</data>
+  <data key="d10">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+</edge>
+<edge source="Equation:eq4_argmax" target="Method:mle" id="REPORTED_IN:e28d597c12641cdf">
+  <data key="d8">REPORTED_IN</data>
+  <data key="d9">Equation (4) reports the argmax criterion used in maximum likelihood estimation.</data>
+  <data key="d10">(θ∗,...,θ∗) = argmax L(θ,...,θ ). (4)</data>
+  <data key="d11">0.9</data>
+  <data key="d12">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+  <data key="d13">chunk_895bf8c81d74ac37</data>
+  <data key="d14">10</data>
+  <data key="d15">mitra.pdf</data>
+</edge>
+<edge source="Finding:parametric_family_selection" target="Chunk:chunk_895bf8c81d74ac37" id="EVIDENCED_BY:9afbe78dcaf1a7e9">
+  <data key="d8">EVIDENCED_BY</data>
+  <data key="d9">supported by chunk</data>
+  <data key="d10">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+</edge>
+<edge source="Finding:parametric_family_selection" target="Paper:mitra" id="REPORTED_IN:86954fda128cd5dd">
+  <data key="d8">REPORTED_IN</data>
+  <data key="d9">reported in this paper</data>
+  <data key="d10">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+</edge>
+<edge source="Finding:parametric_family_selection" target="Concept:likelihood_l" id="DERIVED_FROM:0950246d5e50cf2c">
+  <data key="d8">DERIVED_FROM</data>
+  <data key="d9">Selecting the best-fitting parametric family is based on comparing maximized likelihood values.</data>
+  <data key="d10">the family leading to the best fit can be identified by choosing the family that yields the largest likelihood value</data>
+  <data key="d11">0.88</data>
+  <data key="d12">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+  <data key="d13">chunk_895bf8c81d74ac37</data>
+  <data key="d14">10</data>
+  <data key="d15">mitra.pdf</data>
+</edge>
+<edge source="Concept:prob_density_f" target="Chunk:chunk_895bf8c81d74ac37" id="EVIDENCED_BY:382a14fa2aa3be43">
+  <data key="d8">EVIDENCED_BY</data>
+  <data key="d9">supported by chunk</data>
+  <data key="d10">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+</edge>
+<edge source="Concept:prob_density_f" target="Paper:mitra" id="REPORTED_IN:9d371db3d2bdac62">
+  <data key="d8">REPORTED_IN</data>
+  <data key="d9">reported in this paper</data>
+  <data key="d10">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+</edge>
+<edge source="Concept:prob_density_f" target="Descriptor:descriptor_under_consideration" id="APPLIES_TO:2432a1265bbc4954">
+  <data key="d8">APPLIES_TO</data>
+  <data key="d9">The probability density being modeled is for the descriptor under consideration.</data>
+  <data key="d10">predict the probability density of the descriptor under consideration</data>
+  <data key="d11">0.82</data>
+  <data key="d12">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+  <data key="d13">chunk_895bf8c81d74ac37</data>
+  <data key="d14">10</data>
+  <data key="d15">mitra.pdf</data>
+</edge>
+<edge source="Descriptor:descriptor_under_consideration" target="Chunk:chunk_895bf8c81d74ac37" id="EVIDENCED_BY:8f57792baaeaccdd">
+  <data key="d8">EVIDENCED_BY</data>
+  <data key="d9">supported by chunk</data>
+  <data key="d10">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+</edge>
+<edge source="Descriptor:descriptor_under_consideration" target="Paper:mitra" id="REPORTED_IN:efb8cfa8630104e8">
+  <data key="d8">REPORTED_IN</data>
+  <data key="d9">reported in this paper</data>
+  <data key="d10">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+</edge>
+<edge source="Variable:process_parameter_z" target="Chunk:chunk_895bf8c81d74ac37" id="EVIDENCED_BY:9b459ccd18d6f8b1">
+  <data key="d8">EVIDENCED_BY</data>
+  <data key="d9">supported by chunk</data>
+  <data key="d10">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+</edge>
+<edge source="Variable:process_parameter_z" target="Paper:mitra" id="REPORTED_IN:d8d7792aead3771d">
+  <data key="d8">REPORTED_IN</data>
+  <data key="d9">reported in this paper</data>
+  <data key="d10">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+</edge>
+<edge source="Variable:process_parameter_z" target="Chunk:chunk_07eaf63ef31d9e7c" id="EVIDENCED_BY:fa0b1d3158b1813a">
+  <data key="d8">EVIDENCED_BY</data>
+  <data key="d9">supported by chunk</data>
+  <data key="d10">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+</edge>
+<edge source="Variable:process_parameter_z" target="Variable:feed_rate" id="HAS_DESCRIPTOR:0ee94f1967fca6fb">
+  <data key="d8">HAS_DESCRIPTOR</data>
+  <data key="d9">In the F series, the process parameter z corresponds to feed rate.</data>
+  <data key="d10">the process parameters z (the feedrate in the F series</data>
+  <data key="d11">0.88</data>
+  <data key="d12">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+  <data key="d13">chunk_07eaf63ef31d9e7c</data>
+  <data key="d14">15</data>
+  <data key="d15">mitra.pdf</data>
+</edge>
+<edge source="Variable:process_parameter_z" target="Variable:binder_concentration" id="HAS_DESCRIPTOR:b95b693c9a97183e">
+  <data key="d8">HAS_DESCRIPTOR</data>
+  <data key="d9">In the B series, the process parameter z corresponds to binder concentration.</data>
+  <data key="d10">and the binder concentration in the B series)</data>
+  <data key="d11">0.88</data>
+  <data key="d12">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+  <data key="d13">chunk_07eaf63ef31d9e7c</data>
+  <data key="d14">15</data>
+  <data key="d15">mitra.pdf</data>
+</edge>
+<edge source="Method:regression_g" target="Chunk:chunk_895bf8c81d74ac37" id="EVIDENCED_BY:960fb347d450b53b">
+  <data key="d8">EVIDENCED_BY</data>
+  <data key="d9">supported by chunk</data>
+  <data key="d10">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+</edge>
+<edge source="Method:regression_g" target="Paper:mitra" id="REPORTED_IN:31d2467522e720a7">
+  <data key="d8">REPORTED_IN</data>
+  <data key="d9">reported in this paper</data>
+  <data key="d10">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+</edge>
+<edge source="Method:regression_g" target="Variable:process_parameter_z" id="USES:6d4a73b86e845b99">
+  <data key="d8">USES</data>
+  <data key="d9">The regression function g uses the process parameter z as input to predict model parameters.</data>
+  <data key="d10">a parametric regression function, g: R → Θ... maps the process parameter z ∈ R to a model parameter</data>
+  <data key="d11">0.9</data>
+  <data key="d12">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+  <data key="d13">chunk_895bf8c81d74ac37</data>
+  <data key="d14">10</data>
+  <data key="d15">mitra.pdf</data>
+</edge>
+<edge source="Method:regression_g" target="Variable:theta" id="MEASURES:0d91011ff9ebce56">
+  <data key="d8">MEASURES</data>
+  <data key="d9">The regression function g outputs the model parameter θ for the desired probability density.</data>
+  <data key="d10">θ = g(z) ∈ Θ</data>
+  <data key="d11">0.85</data>
+  <data key="d12">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+  <data key="d13">chunk_895bf8c81d74ac37</data>
+  <data key="d14">10</data>
+  <data key="d15">mitra.pdf</data>
+</edge>
+<edge source="Variable:theta" target="Chunk:chunk_895bf8c81d74ac37" id="EVIDENCED_BY:ffb22e69e642376c">
+  <data key="d8">EVIDENCED_BY</data>
+  <data key="d9">supported by chunk</data>
+  <data key="d10">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+</edge>
+<edge source="Variable:theta" target="Paper:mitra" id="REPORTED_IN:18d3d0893d4bffbd">
+  <data key="d8">REPORTED_IN</data>
+  <data key="d9">reported in this paper</data>
+  <data key="d10">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+</edge>
+<edge source="Variable:theta" target="Concept:prob_density_f" id="HAS_PROPERTY:1138053f3219a506">
+  <data key="d8">HAS_PROPERTY</data>
+  <data key="d9">θ is a parameter of the desired probability density f.</data>
+  <data key="d10">a model parameter, θ = g(z) ∈ Θ, of the desired probability density, f</data>
+  <data key="d11">0.85</data>
+  <data key="d12">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+  <data key="d13">chunk_895bf8c81d74ac37</data>
+  <data key="d14">10</data>
+  <data key="d15">mitra.pdf</data>
+</edge>
+<edge source="Method:linear_regression" target="Chunk:chunk_895bf8c81d74ac37" id="EVIDENCED_BY:b65ffad4d835a25f">
+  <data key="d8">EVIDENCED_BY</data>
+  <data key="d9">supported by chunk</data>
+  <data key="d10">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+</edge>
+<edge source="Method:linear_regression" target="Paper:mitra" id="REPORTED_IN:0ee24c524bef8532">
+  <data key="d8">REPORTED_IN</data>
+  <data key="d9">reported in this paper</data>
+  <data key="d10">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+</edge>
+<edge source="Method:linear_regression" target="Method:regression_g" id="PART_OF:7d1f4ac85c1f338d">
+  <data key="d8">PART_OF</data>
+  <data key="d9">In the paper, g is taken to be a linear regression function.</data>
+  <data key="d10">In the present paper, a linear regression function, g, is considered</data>
+  <data key="d11">0.86</data>
+  <data key="d12">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+  <data key="d13">chunk_895bf8c81d74ac37</data>
+  <data key="d14">10</data>
+  <data key="d15">mitra.pdf</data>
+</edge>
+<edge source="Method:linear_regression" target="Variable:a_param" id="USES:3509aabc64b5359a">
+  <data key="d8">USES</data>
+  <data key="d9">The linear regression function includes parameter a that must be fitted to data.</data>
+  <data key="d10">where a,b ∈ Rm are parameters that have to be fitted to data</data>
+  <data key="d11">0.9</data>
+  <data key="d12">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+  <data key="d13">chunk_895bf8c81d74ac37</data>
+  <data key="d14">10</data>
+  <data key="d15">mitra.pdf</data>
+</edge>
+<edge source="Method:linear_regression" target="Variable:b_param" id="USES:5612760c6c14d23e">
+  <data key="d8">USES</data>
+  <data key="d9">The linear regression function includes parameter b that must be fitted to data.</data>
+  <data key="d10">where a,b ∈ Rm are parameters that have to be fitted to data</data>
+  <data key="d11">0.9</data>
+  <data key="d12">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+  <data key="d13">chunk_895bf8c81d74ac37</data>
+  <data key="d14">10</data>
+  <data key="d15">mitra.pdf</data>
+</edge>
+<edge source="Equation:eq5_linear_g" target="Chunk:chunk_895bf8c81d74ac37" id="EVIDENCED_BY:7e0220051dcce9bd">
+  <data key="d8">EVIDENCED_BY</data>
+  <data key="d9">supported by chunk</data>
+  <data key="d10">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+</edge>
+<edge source="Equation:eq5_linear_g" target="Paper:mitra" id="REPORTED_IN:326dd0d6d0e1b834">
+  <data key="d8">REPORTED_IN</data>
+  <data key="d9">reported in this paper</data>
+  <data key="d10">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+</edge>
+<edge source="Equation:eq5_linear_g" target="Method:linear_regression" id="REPORTED_IN:27ea07e46282b6fd">
+  <data key="d8">REPORTED_IN</data>
+  <data key="d9">Equation (5) reports the linear form of the regression function g.</data>
+  <data key="d10">given by g(z) = a·z+b, (5)</data>
+  <data key="d11">0.92</data>
+  <data key="d12">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+  <data key="d13">chunk_895bf8c81d74ac37</data>
+  <data key="d14">10</data>
+  <data key="d15">mitra.pdf</data>
+</edge>
+<edge source="Variable:a_param" target="Chunk:chunk_895bf8c81d74ac37" id="EVIDENCED_BY:fb6701ae698eee89">
+  <data key="d8">EVIDENCED_BY</data>
+  <data key="d9">supported by chunk</data>
+  <data key="d10">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+</edge>
+<edge source="Variable:a_param" target="Paper:mitra" id="REPORTED_IN:aac550dca65684de">
+  <data key="d8">REPORTED_IN</data>
+  <data key="d9">reported in this paper</data>
+  <data key="d10">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+</edge>
+<edge source="Variable:b_param" target="Chunk:chunk_895bf8c81d74ac37" id="EVIDENCED_BY:65d93c17fca0504e">
+  <data key="d8">EVIDENCED_BY</data>
+  <data key="d9">supported by chunk</data>
+  <data key="d10">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+</edge>
+<edge source="Variable:b_param" target="Paper:mitra" id="REPORTED_IN:8607434a602422c9">
+  <data key="d8">REPORTED_IN</data>
+  <data key="d9">reported in this paper</data>
+  <data key="d10">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+</edge>
+<edge source="Method:mse_regression" target="Chunk:chunk_895bf8c81d74ac37" id="EVIDENCED_BY:0d179277c604dcd7">
+  <data key="d8">EVIDENCED_BY</data>
+  <data key="d9">supported by chunk</data>
+  <data key="d10">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+</edge>
+<edge source="Method:mse_regression" target="Paper:mitra" id="REPORTED_IN:bdba03c3808d1c27">
+  <data key="d8">REPORTED_IN</data>
+  <data key="d9">reported in this paper</data>
+  <data key="d10">mitra.pdf p.10 equation_candidate chunk_295840f7d0018374</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.10 equation_candidate chunk_295840f7d0018374</data>
+</edge>
+<edge source="Method:mse_regression" target="Method:linear_regression" id="USES:0f59e22f19cecbd9">
+  <data key="d8">USES</data>
+  <data key="d9">Mean-squared-error-based regression is used to fit the linear regression parameters.</data>
+  <data key="d10">optimal parameter values, a∗, b∗... are determined by means of a mean-squared error-based regression</data>
+  <data key="d11">0.9</data>
+  <data key="d12">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+  <data key="d13">chunk_895bf8c81d74ac37</data>
+  <data key="d14">10</data>
+  <data key="d15">mitra.pdf</data>
+</edge>
+<edge source="Method:mse_regression" target="Chunk:chunk_295840f7d0018374" id="EVIDENCED_BY:cb8bf58d80c4dddc">
+  <data key="d8">EVIDENCED_BY</data>
+  <data key="d9">supported by chunk</data>
+  <data key="d10">mitra.pdf p.10 equation_candidate chunk_295840f7d0018374</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.10 equation_candidate chunk_295840f7d0018374</data>
+</edge>
+<edge source="Method:mse_regression" target="Equation:eq6_argmin_mse" id="EVIDENCED_BY:6eb626ed1d4147ad">
+  <data key="d8">EVIDENCED_BY</data>
+  <data key="d9">The mean-squared error-based regression is expressed by Equation (6).</data>
+  <data key="d10">determined by means of a mean-squared error- based regression ... i.e., ( a ∗ , b ∗ ) = argmin</data>
+  <data key="d11">0.85</data>
+  <data key="d12">mitra.pdf p.10 equation_candidate chunk_295840f7d0018374</data>
+  <data key="d13">chunk_295840f7d0018374</data>
+  <data key="d14">10</data>
+  <data key="d15">mitra.pdf</data>
+</edge>
+<edge source="Method:mse_regression" target="Variable:param_a" id="USES:33c86308af4332a8">
+  <data key="d8">USES</data>
+  <data key="d9">The regression fits parameter a in R^m.</data>
+  <data key="d10">where a , b ∈ R m are parameters that have to be fitted to data</data>
+  <data key="d11">0.85</data>
+  <data key="d12">mitra.pdf p.10 equation_candidate chunk_295840f7d0018374</data>
+  <data key="d13">chunk_295840f7d0018374</data>
+  <data key="d14">10</data>
+  <data key="d15">mitra.pdf</data>
+</edge>
+<edge source="Method:mse_regression" target="Variable:param_b" id="USES:6ab0527404ca7ab8">
+  <data key="d8">USES</data>
+  <data key="d9">The regression fits parameter b in R^m.</data>
+  <data key="d10">where a , b ∈ R m are parameters that have to be fitted to data</data>
+  <data key="d11">0.85</data>
+  <data key="d12">mitra.pdf p.10 equation_candidate chunk_295840f7d0018374</data>
+  <data key="d13">chunk_295840f7d0018374</data>
+  <data key="d14">10</data>
+  <data key="d15">mitra.pdf</data>
+</edge>
+<edge source="Equation:eq6_mse" target="Chunk:chunk_895bf8c81d74ac37" id="EVIDENCED_BY:43903ce47fad1825">
+  <data key="d8">EVIDENCED_BY</data>
+  <data key="d9">supported by chunk</data>
+  <data key="d10">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+</edge>
+<edge source="Equation:eq6_mse" target="Paper:mitra" id="REPORTED_IN:272d0d89e61fd5e3">
+  <data key="d8">REPORTED_IN</data>
+  <data key="d9">reported in this paper</data>
+  <data key="d10">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+</edge>
+<edge source="Equation:eq6_mse" target="Method:mse_regression" id="REPORTED_IN:3796e5c948718392">
+  <data key="d8">REPORTED_IN</data>
+  <data key="d9">Equation (6) reports the objective minimized in the MSE-based regression for a and b.</data>
+  <data key="d10">(a∗,b∗) = argmin ... ∑ (g(zi)−θi∗)2. (6)</data>
+  <data key="d11">0.92</data>
+  <data key="d12">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+  <data key="d13">chunk_895bf8c81d74ac37</data>
+  <data key="d14">10</data>
+  <data key="d15">mitra.pdf</data>
+</edge>
+<edge source="Descriptor:droplet_size_distribution" target="Chunk:chunk_895bf8c81d74ac37" id="EVIDENCED_BY:37314857e3abc028">
+  <data key="d8">EVIDENCED_BY</data>
+  <data key="d9">supported by chunk</data>
+  <data key="d10">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+</edge>
+<edge source="Descriptor:droplet_size_distribution" target="Paper:mitra" id="REPORTED_IN:51c0e4cd9cfe5e56">
+  <data key="d8">REPORTED_IN</data>
+  <data key="d9">reported in this paper</data>
+  <data key="d10">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+</edge>
+<edge source="Descriptor:droplet_size_distribution" target="Concept:atomization_process" id="EVIDENCED_BY:10c0333e81082530">
+  <data key="d8">EVIDENCED_BY</data>
+  <data key="d9">Droplet size distributions are analyzed to understand the atomization process under different process parameters.</data>
+  <data key="d10">the size... distributions of the droplets... under different values of the concerned process parameters were analyzed</data>
+  <data key="d11">0.8</data>
+  <data key="d12">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+  <data key="d13">chunk_895bf8c81d74ac37</data>
+  <data key="d14">10</data>
+  <data key="d15">mitra.pdf</data>
+</edge>
+<edge source="Descriptor:droplet_velocity_distribution" target="Chunk:chunk_895bf8c81d74ac37" id="EVIDENCED_BY:4f951dd5c06e13ad">
+  <data key="d8">EVIDENCED_BY</data>
+  <data key="d9">supported by chunk</data>
+  <data key="d10">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+</edge>
+<edge source="Descriptor:droplet_velocity_distribution" target="Paper:mitra" id="REPORTED_IN:72dde661e9b059a2">
+  <data key="d8">REPORTED_IN</data>
+  <data key="d9">reported in this paper</data>
+  <data key="d10">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+</edge>
+<edge source="Descriptor:droplet_velocity_distribution" target="Concept:atomization_process" id="EVIDENCED_BY:bfa06c4fa693b382">
+  <data key="d8">EVIDENCED_BY</data>
+  <data key="d9">Droplet velocity distributions are analyzed to understand the atomization process under different process parameters.</data>
+  <data key="d10">the size and velocity distributions of the droplets... under different values of the concerned process parameters were analyzed</data>
+  <data key="d11">0.8</data>
+  <data key="d12">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+  <data key="d13">chunk_895bf8c81d74ac37</data>
+  <data key="d14">10</data>
+  <data key="d15">mitra.pdf</data>
+</edge>
+<edge source="Concept:atomization_process" target="Chunk:chunk_895bf8c81d74ac37" id="EVIDENCED_BY:67db6a49f23a2af1">
+  <data key="d8">EVIDENCED_BY</data>
+  <data key="d9">supported by chunk</data>
+  <data key="d10">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+</edge>
+<edge source="Concept:atomization_process" target="Paper:mitra" id="REPORTED_IN:79c7d734f601ec62">
+  <data key="d8">REPORTED_IN</data>
+  <data key="d9">reported in this paper</data>
+  <data key="d10">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+</edge>
+<edge source="Instrument:two_fluid_nozzle" target="Chunk:chunk_895bf8c81d74ac37" id="EVIDENCED_BY:26f416f6ddf96b1d">
+  <data key="d8">EVIDENCED_BY</data>
+  <data key="d9">supported by chunk</data>
+  <data key="d10">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+</edge>
+<edge source="Instrument:two_fluid_nozzle" target="Paper:mitra" id="REPORTED_IN:bdac5073048827f7">
+  <data key="d8">REPORTED_IN</data>
+  <data key="d9">reported in this paper</data>
+  <data key="d10">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+</edge>
+<edge source="Instrument:two_fluid_nozzle" target="Concept:atomization_process" id="PART_OF:c895935d96990bb5">
+  <data key="d8">PART_OF</data>
+  <data key="d9">Droplets are produced via the two-fluid nozzle as part of the atomization process studied.</data>
+  <data key="d10">droplets produced via the two-fluid nozzle</data>
+  <data key="d11">0.8</data>
+  <data key="d12">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+  <data key="d13">chunk_895bf8c81d74ac37</data>
+  <data key="d14">10</data>
+  <data key="d15">mitra.pdf</data>
+</edge>
+<edge source="Instrument:hiwatch_s_ptv" target="Chunk:chunk_895bf8c81d74ac37" id="EVIDENCED_BY:fd3133b5c8e10a44">
+  <data key="d8">EVIDENCED_BY</data>
+  <data key="d9">supported by chunk</data>
+  <data key="d10">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+</edge>
+<edge source="Instrument:hiwatch_s_ptv" target="Paper:mitra" id="REPORTED_IN:6ab0085188e9d73c">
+  <data key="d8">REPORTED_IN</data>
+  <data key="d9">reported in this paper</data>
+  <data key="d10">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+</edge>
+<edge source="Instrument:hiwatch_s_ptv" target="Dataset:droplet_dataset_cases" id="USES:2246e0281b3a8899">
+  <data key="d8">USES</data>
+  <data key="d9">The HiWatchS-PTV system is used to obtain droplet data for selected representative experimental cases.</data>
+  <data key="d10">Using the HiWatchS-PTV system... droplet data for selected representative experimental cases were obtained</data>
+  <data key="d11">0.9</data>
+  <data key="d12">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+  <data key="d13">chunk_895bf8c81d74ac37</data>
+  <data key="d14">10</data>
+  <data key="d15">mitra.pdf</data>
+</edge>
+<edge source="Dataset:droplet_dataset_cases" target="Chunk:chunk_895bf8c81d74ac37" id="EVIDENCED_BY:291a6035bcc833c2">
+  <data key="d8">EVIDENCED_BY</data>
+  <data key="d9">supported by chunk</data>
+  <data key="d10">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+</edge>
+<edge source="Dataset:droplet_dataset_cases" target="Paper:mitra" id="REPORTED_IN:12131fb98d8756a1">
+  <data key="d8">REPORTED_IN</data>
+  <data key="d9">reported in this paper</data>
+  <data key="d10">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+</edge>
+<edge source="Dataset:droplet_dataset_cases" target="Dataset:case_f1b1" id="PART_OF:06af75baa9cef288">
+  <data key="d8">PART_OF</data>
+  <data key="d9">F1B1 is one of the representative experimental cases in the droplet dataset.</data>
+  <data key="d10">a low feedrate with a low binder (F1B1)</data>
+  <data key="d11">0.88</data>
+  <data key="d12">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+  <data key="d13">chunk_895bf8c81d74ac37</data>
+  <data key="d14">10</data>
+  <data key="d15">mitra.pdf</data>
+</edge>
+<edge source="Dataset:droplet_dataset_cases" target="Dataset:case_f1b2" id="PART_OF:a9c4224a3339a545">
+  <data key="d8">PART_OF</data>
+  <data key="d9">F1B2 is one of the representative experimental cases in the droplet dataset.</data>
+  <data key="d10">a low feed rate with a high binder (F1B2)</data>
+  <data key="d11">0.88</data>
+  <data key="d12">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+  <data key="d13">chunk_895bf8c81d74ac37</data>
+  <data key="d14">10</data>
+  <data key="d15">mitra.pdf</data>
+</edge>
+<edge source="Dataset:droplet_dataset_cases" target="Dataset:case_f2b2" id="PART_OF:668495e513e60cbe">
+  <data key="d8">PART_OF</data>
+  <data key="d9">F2B2 is one of the representative experimental cases in the droplet dataset.</data>
+  <data key="d10">a high feedrate with a high binder (F2B2)</data>
+  <data key="d11">0.88</data>
+  <data key="d12">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+  <data key="d13">chunk_895bf8c81d74ac37</data>
+  <data key="d14">10</data>
+  <data key="d15">mitra.pdf</data>
+</edge>
+<edge source="Dataset:case_f1b1" target="Chunk:chunk_895bf8c81d74ac37" id="EVIDENCED_BY:9e7e7a7e4119478e">
+  <data key="d8">EVIDENCED_BY</data>
+  <data key="d9">supported by chunk</data>
+  <data key="d10">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+</edge>
+<edge source="Dataset:case_f1b1" target="Paper:mitra" id="REPORTED_IN:4eb072750daad720">
+  <data key="d8">REPORTED_IN</data>
+  <data key="d9">reported in this paper</data>
+  <data key="d10">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+</edge>
+<edge source="Dataset:case_f1b2" target="Chunk:chunk_895bf8c81d74ac37" id="EVIDENCED_BY:4c9704ffeb6fc7ad">
+  <data key="d8">EVIDENCED_BY</data>
+  <data key="d9">supported by chunk</data>
+  <data key="d10">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+</edge>
+<edge source="Dataset:case_f1b2" target="Paper:mitra" id="REPORTED_IN:9e439806095ef86c">
+  <data key="d8">REPORTED_IN</data>
+  <data key="d9">reported in this paper</data>
+  <data key="d10">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+</edge>
+<edge source="Dataset:case_f2b2" target="Chunk:chunk_895bf8c81d74ac37" id="EVIDENCED_BY:e48e8014068b560a">
+  <data key="d8">EVIDENCED_BY</data>
+  <data key="d9">supported by chunk</data>
+  <data key="d10">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+</edge>
+<edge source="Dataset:case_f2b2" target="Paper:mitra" id="REPORTED_IN:d2cc613e3783a72c">
+  <data key="d8">REPORTED_IN</data>
+  <data key="d9">reported in this paper</data>
+  <data key="d10">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.10 page_text chunk_895bf8c81d74ac37</data>
+</edge>
+<edge source="Chunk:chunk_07eaf63ef31d9e7c" target="Paper:mitra" id="PART_OF:chunk_07eaf63ef31d9e7c">
+  <data key="d8">PART_OF</data>
+  <data key="d9">chunk belongs to paper</data>
+  <data key="d10">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+</edge>
+<edge source="Document:mitra_p15_chunk_07eaf63ef31d9e7c" target="Chunk:chunk_07eaf63ef31d9e7c" id="EVIDENCED_BY:0f0d6cc49c13033b">
+  <data key="d8">EVIDENCED_BY</data>
+  <data key="d9">supported by chunk</data>
+  <data key="d10">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+</edge>
+<edge source="Document:mitra_p15_chunk_07eaf63ef31d9e7c" target="Paper:mitra" id="REPORTED_IN:2b09479e26024767">
+  <data key="d8">REPORTED_IN</data>
+  <data key="d9">reported in this paper</data>
+  <data key="d10">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+</edge>
+<edge source="Document:mitra_p15_chunk_07eaf63ef31d9e7c" target="Method:regression_procedure_sec2_7" id="MENTIONS:a901001e63199ed8">
+  <data key="d8">MENTIONS</data>
+  <data key="d9">The document chunk mentions applying a regression procedure to predict descriptor distributions.</data>
+  <data key="d10">By applying the regression procedure described in Section 2.7</data>
+  <data key="d11">0.9</data>
+  <data key="d12">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+  <data key="d13">chunk_07eaf63ef31d9e7c</data>
+  <data key="d14">15</data>
+  <data key="d15">mitra.pdf</data>
+</edge>
+<edge source="Method:regression_procedure_sec2_7" target="Chunk:chunk_07eaf63ef31d9e7c" id="EVIDENCED_BY:61b2f233df8cd1e4">
+  <data key="d8">EVIDENCED_BY</data>
+  <data key="d9">supported by chunk</data>
+  <data key="d10">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+</edge>
+<edge source="Method:regression_procedure_sec2_7" target="Paper:mitra" id="REPORTED_IN:386b91bcf2cc1abf">
+  <data key="d8">REPORTED_IN</data>
+  <data key="d9">reported in this paper</data>
+  <data key="d10">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+</edge>
+<edge source="Method:regression_procedure_sec2_7" target="Dataset:f_series" id="USES:f8ee7fe77a1c3661">
+  <data key="d8">USES</data>
+  <data key="d9">The regression procedure is applied to the F series.</data>
+  <data key="d10">By applying the regression procedure described in Section 2.7 to the F series</data>
+  <data key="d11">0.86</data>
+  <data key="d12">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+  <data key="d13">chunk_07eaf63ef31d9e7c</data>
+  <data key="d14">15</data>
+  <data key="d15">mitra.pdf</data>
+</edge>
+<edge source="Method:regression_procedure_sec2_7" target="Dataset:b_series" id="USES:c60fd81afe5f8555">
+  <data key="d8">USES</data>
+  <data key="d9">The regression procedure is applied to the B series.</data>
+  <data key="d10">and B series</data>
+  <data key="d11">0.8</data>
+  <data key="d12">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+  <data key="d13">chunk_07eaf63ef31d9e7c</data>
+  <data key="d14">15</data>
+  <data key="d15">mitra.pdf</data>
+</edge>
+<edge source="Method:regression_procedure_sec2_7" target="Limitation:unmeasured_process_parameters" id="APPLIES_TO:699020aec48fbad1">
+  <data key="d8">APPLIES_TO</data>
+  <data key="d9">The regression procedure is used to predict descriptor probability densities for process parameters without prior measurements.</data>
+  <data key="d10">for process parameters can be predicted, for which no measurements have been conducted yet</data>
+  <data key="d11">0.83</data>
+  <data key="d12">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+  <data key="d13">chunk_07eaf63ef31d9e7c</data>
+  <data key="d14">15</data>
+  <data key="d15">mitra.pdf</data>
+</edge>
+<edge source="Dataset:f_series" target="Chunk:chunk_07eaf63ef31d9e7c" id="EVIDENCED_BY:1008c5f0f39398e5">
+  <data key="d8">EVIDENCED_BY</data>
+  <data key="d9">supported by chunk</data>
+  <data key="d10">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+</edge>
+<edge source="Dataset:f_series" target="Paper:mitra" id="REPORTED_IN:c555c32bfb1831de">
+  <data key="d8">REPORTED_IN</data>
+  <data key="d9">reported in this paper</data>
+  <data key="d10">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+</edge>
+<edge source="Dataset:f_series" target="Variable:feed_rate" id="HAS_DESCRIPTOR:661cfd0c7838af2f">
+  <data key="d8">HAS_DESCRIPTOR</data>
+  <data key="d9">The F series is characterized by varying feed rate.</data>
+  <data key="d10">F series (varying feedrate)</data>
+  <data key="d11">0.85</data>
+  <data key="d12">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+  <data key="d13">chunk_07eaf63ef31d9e7c</data>
+  <data key="d14">15</data>
+  <data key="d15">mitra.pdf</data>
+</edge>
+<edge source="Dataset:b_series" target="Chunk:chunk_07eaf63ef31d9e7c" id="EVIDENCED_BY:d0fd79ea398fc7f9">
+  <data key="d8">EVIDENCED_BY</data>
+  <data key="d9">supported by chunk</data>
+  <data key="d10">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+</edge>
+<edge source="Dataset:b_series" target="Paper:mitra" id="REPORTED_IN:b00536ca692c5d5d">
+  <data key="d8">REPORTED_IN</data>
+  <data key="d9">reported in this paper</data>
+  <data key="d10">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+</edge>
+<edge source="Dataset:b_series" target="Variable:binder_concentration" id="HAS_DESCRIPTOR:dd857f25136cbf92">
+  <data key="d8">HAS_DESCRIPTOR</data>
+  <data key="d9">The B series is characterized by varying binder concentration.</data>
+  <data key="d10">B series (varying binder concentration)</data>
+  <data key="d11">0.85</data>
+  <data key="d12">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+  <data key="d13">chunk_07eaf63ef31d9e7c</data>
+  <data key="d14">15</data>
+  <data key="d15">mitra.pdf</data>
+</edge>
+<edge source="Variable:descriptor_d_fmax" target="Chunk:chunk_07eaf63ef31d9e7c" id="EVIDENCED_BY:5544a9b03e7f8ac0">
+  <data key="d8">EVIDENCED_BY</data>
+  <data key="d9">supported by chunk</data>
+  <data key="d10">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+</edge>
+<edge source="Variable:descriptor_d_fmax" target="Paper:mitra" id="REPORTED_IN:e44a419904e5f284">
+  <data key="d8">REPORTED_IN</data>
+  <data key="d9">reported in this paper</data>
+  <data key="d10">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+</edge>
+<edge source="Variable:descriptor_psi_a" target="Chunk:chunk_07eaf63ef31d9e7c" id="EVIDENCED_BY:740c44f8169511a8">
+  <data key="d8">EVIDENCED_BY</data>
+  <data key="d9">supported by chunk</data>
+  <data key="d10">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+</edge>
+<edge source="Variable:descriptor_psi_a" target="Paper:mitra" id="REPORTED_IN:c05cf907bff34e02">
+  <data key="d8">REPORTED_IN</data>
+  <data key="d9">reported in this paper</data>
+  <data key="d10">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+</edge>
+<edge source="Variable:model_parameters_theta" target="Chunk:chunk_07eaf63ef31d9e7c" id="EVIDENCED_BY:d57d9f8002878416">
+  <data key="d8">EVIDENCED_BY</data>
+  <data key="d9">supported by chunk</data>
+  <data key="d10">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+</edge>
+<edge source="Variable:model_parameters_theta" target="Paper:mitra" id="REPORTED_IN:b09273956b380d30">
+  <data key="d8">REPORTED_IN</data>
+  <data key="d9">reported in this paper</data>
+  <data key="d10">mitra.pdf p.9 page_text chunk_292a513b17ac9374</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.9 page_text chunk_292a513b17ac9374</data>
+</edge>
+<edge source="Variable:model_parameters_theta" target="Dataset:f_series" id="DERIVED_FROM:e3b642b9ef2187b0">
+  <data key="d8">DERIVED_FROM</data>
+  <data key="d9">Model parameters θ correspond to probability densities from conducted experiments in the F series.</data>
+  <data key="d10">of the corresponding probability densities of the conducted experiments</data>
+  <data key="d11">0.74</data>
+  <data key="d12">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+  <data key="d13">chunk_07eaf63ef31d9e7c</data>
+  <data key="d14">15</data>
+  <data key="d15">mitra.pdf</data>
+</edge>
+<edge source="Variable:model_parameters_theta" target="Dataset:b_series" id="DERIVED_FROM:aa79fcaa71d73420">
+  <data key="d8">DERIVED_FROM</data>
+  <data key="d9">Model parameters θ correspond to probability densities from conducted experiments in the B series.</data>
+  <data key="d10">of the corresponding probability densities of the conducted experiments</data>
+  <data key="d11">0.74</data>
+  <data key="d12">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+  <data key="d13">chunk_07eaf63ef31d9e7c</data>
+  <data key="d14">15</data>
+  <data key="d15">mitra.pdf</data>
+</edge>
+<edge source="Variable:model_parameters_theta" target="Chunk:chunk_292a513b17ac9374" id="EVIDENCED_BY:fb1fdd25c8cb358b">
+  <data key="d8">EVIDENCED_BY</data>
+  <data key="d9">supported by chunk</data>
+  <data key="d10">mitra.pdf p.9 page_text chunk_292a513b17ac9374</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.9 page_text chunk_292a513b17ac9374</data>
+</edge>
+<edge source="Method:regression_function_g" target="Chunk:chunk_07eaf63ef31d9e7c" id="EVIDENCED_BY:0e62d89f042c16e1">
+  <data key="d8">EVIDENCED_BY</data>
+  <data key="d9">supported by chunk</data>
+  <data key="d10">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+</edge>
+<edge source="Method:regression_function_g" target="Paper:mitra" id="REPORTED_IN:7142d298b7b40061">
+  <data key="d8">REPORTED_IN</data>
+  <data key="d9">reported in this paper</data>
+  <data key="d10">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+</edge>
+<edge source="Method:regression_function_g" target="Equation:equation_5" id="DERIVED_FROM:71df2a7a3ade514f">
+  <data key="d8">DERIVED_FROM</data>
+  <data key="d9">Regression function g is referenced as being given by Equation (5).</data>
+  <data key="d10">function g (see Equations (5) and (6))</data>
+  <data key="d11">0.72</data>
+  <data key="d12">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+  <data key="d13">chunk_07eaf63ef31d9e7c</data>
+  <data key="d14">15</data>
+  <data key="d15">mitra.pdf</data>
+</edge>
+<edge source="Method:regression_function_g" target="Equation:equation_6" id="DERIVED_FROM:16636ff0d2eaa275">
+  <data key="d8">DERIVED_FROM</data>
+  <data key="d9">Regression function g is referenced as being given by Equation (6).</data>
+  <data key="d10">function g (see Equations (5) and (6))</data>
+  <data key="d11">0.72</data>
+  <data key="d12">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+  <data key="d13">chunk_07eaf63ef31d9e7c</data>
+  <data key="d14">15</data>
+  <data key="d15">mitra.pdf</data>
+</edge>
+<edge source="Method:regression_function_g" target="Variable:process_parameter_z" id="USES:53cf35cecf6ea5da">
+  <data key="d8">USES</data>
+  <data key="d9">The regression function uses process parameter z as input to capture relationships.</data>
+  <data key="d10">capture the relationship between the process parameters z</data>
+  <data key="d11">0.84</data>
+  <data key="d12">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+  <data key="d13">chunk_07eaf63ef31d9e7c</data>
+  <data key="d14">15</data>
+  <data key="d15">mitra.pdf</data>
+</edge>
+<edge source="Method:regression_function_g" target="Variable:model_parameters_theta" id="AFFECTS:9044dfe3884ef963">
+  <data key="d8">AFFECTS</data>
+  <data key="d9">The regression function is fitted to model how z relates to model parameters θ of the probability densities.</data>
+  <data key="d10">capture the relationship between the process parameters z ... and the model parameters θ</data>
+  <data key="d11">0.83</data>
+  <data key="d12">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+  <data key="d13">chunk_07eaf63ef31d9e7c</data>
+  <data key="d14">15</data>
+  <data key="d15">mitra.pdf</data>
+</edge>
+<edge source="Method:regression_function_g" target="Descriptor:feed_rate_range_11_20" id="APPLIES_TO:2b6d61ed4f965c25">
+  <data key="d8">APPLIES_TO</data>
+  <data key="d9">The F-series regression function is stated to predict distributions for arbitrary feed rate values in z ∈ [11,20].</data>
+  <data key="d10">an arbitrary feedrate in z ∈ [11,20]</data>
+  <data key="d11">0.78</data>
+  <data key="d12">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+  <data key="d13">chunk_07eaf63ef31d9e7c</data>
+  <data key="d14">15</data>
+  <data key="d15">mitra.pdf</data>
+</edge>
+<edge source="Method:regression_function_g" target="Descriptor:binder_concentration_fixed_0_8wtpct" id="APPLIES_TO:9fbfbf22ab0d96ec">
+  <data key="d8">APPLIES_TO</data>
+  <data key="d9">The F-series regression prediction is stated for a fixed binder concentration of 0.8 wt%.</data>
+  <data key="d10">a fixed binder concentration of 0.8 wt%</data>
+  <data key="d11">0.78</data>
+  <data key="d12">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+  <data key="d13">chunk_07eaf63ef31d9e7c</data>
+  <data key="d14">15</data>
+  <data key="d15">mitra.pdf</data>
+</edge>
+<edge source="Equation:equation_5" target="Chunk:chunk_07eaf63ef31d9e7c" id="EVIDENCED_BY:3d2a4978e715ce03">
+  <data key="d8">EVIDENCED_BY</data>
+  <data key="d9">supported by chunk</data>
+  <data key="d10">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+</edge>
+<edge source="Equation:equation_5" target="Paper:mitra" id="REPORTED_IN:bbed26892a3ebc2f">
+  <data key="d8">REPORTED_IN</data>
+  <data key="d9">reported in this paper</data>
+  <data key="d10">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+</edge>
+<edge source="Equation:equation_6" target="Chunk:chunk_07eaf63ef31d9e7c" id="EVIDENCED_BY:d6930babea96cef0">
+  <data key="d8">EVIDENCED_BY</data>
+  <data key="d9">supported by chunk</data>
+  <data key="d10">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+</edge>
+<edge source="Equation:equation_6" target="Paper:mitra" id="REPORTED_IN:5c7186ccb638bbae">
+  <data key="d8">REPORTED_IN</data>
+  <data key="d9">reported in this paper</data>
+  <data key="d10">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+</edge>
+<edge source="Concept:lognormal_distribution" target="Chunk:chunk_07eaf63ef31d9e7c" id="EVIDENCED_BY:ca8c9cce1b06d312">
+  <data key="d8">EVIDENCED_BY</data>
+  <data key="d9">supported by chunk</data>
+  <data key="d10">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+</edge>
+<edge source="Concept:lognormal_distribution" target="Paper:mitra" id="REPORTED_IN:4e219ba3e4ede150">
+  <data key="d8">REPORTED_IN</data>
+  <data key="d9">reported in this paper</data>
+  <data key="d10">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+</edge>
+<edge source="Concept:lognormal_distribution" target="Variable:descriptor_d_fmax" id="APPLIES_TO:02f5e27ea38cfc2c">
+  <data key="d8">APPLIES_TO</data>
+  <data key="d9">The lognormal distribution is used for the descriptor d_Fmax.</data>
+  <data key="d10">lognormal distribution for d_Fmax</data>
+  <data key="d11">0.86</data>
+  <data key="d12">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+  <data key="d13">chunk_07eaf63ef31d9e7c</data>
+  <data key="d14">15</data>
+  <data key="d15">mitra.pdf</data>
+</edge>
+<edge source="Concept:normal_distribution" target="Chunk:chunk_07eaf63ef31d9e7c" id="EVIDENCED_BY:d96030dfed9f2da0">
+  <data key="d8">EVIDENCED_BY</data>
+  <data key="d9">supported by chunk</data>
+  <data key="d10">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+</edge>
+<edge source="Concept:normal_distribution" target="Paper:mitra" id="REPORTED_IN:4db0bb60ca784a83">
+  <data key="d8">REPORTED_IN</data>
+  <data key="d9">reported in this paper</data>
+  <data key="d10">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+</edge>
+<edge source="Concept:normal_distribution" target="Variable:descriptor_psi_a" id="APPLIES_TO:6acbf87c3cb94ef8">
+  <data key="d8">APPLIES_TO</data>
+  <data key="d9">The normal distribution is used for the descriptor Ψ_A.</data>
+  <data key="d10">normal distribution for Ψ_A</data>
+  <data key="d11">0.86</data>
+  <data key="d12">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+  <data key="d13">chunk_07eaf63ef31d9e7c</data>
+  <data key="d14">15</data>
+  <data key="d15">mitra.pdf</data>
+</edge>
+<edge source="Finding:high_degree_of_agreement" target="Chunk:chunk_07eaf63ef31d9e7c" id="EVIDENCED_BY:e46e029d10d08155">
+  <data key="d8">EVIDENCED_BY</data>
+  <data key="d9">supported by chunk</data>
+  <data key="d10">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+</edge>
+<edge source="Finding:high_degree_of_agreement" target="Paper:mitra" id="REPORTED_IN:e11200e986647c68">
+  <data key="d8">REPORTED_IN</data>
+  <data key="d9">reported in this paper</data>
+  <data key="d10">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+</edge>
+<edge source="Finding:high_degree_of_agreement" target="Method:regression_function_g" id="EVIDENCED_BY:a38555c207674e00">
+  <data key="d8">EVIDENCED_BY</data>
+  <data key="d9">Agreement is evidenced between fitted regression lines and model parameters resulting from the regression fits.</data>
+  <data key="d10">A high degree of agreement between the fitted regression lines and the model parameters can be observed.</data>
+  <data key="d11">0.83</data>
+  <data key="d12">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+  <data key="d13">chunk_07eaf63ef31d9e7c</data>
+  <data key="d14">15</data>
+  <data key="d15">mitra.pdf</data>
+</edge>
+<edge source="Application:prediction_intermediate_conditions" target="Chunk:chunk_07eaf63ef31d9e7c" id="EVIDENCED_BY:cd5503e61f08c8cf">
+  <data key="d8">EVIDENCED_BY</data>
+  <data key="d9">supported by chunk</data>
+  <data key="d10">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+</edge>
+<edge source="Application:prediction_intermediate_conditions" target="Paper:mitra" id="REPORTED_IN:2d43cfc73ab9844a">
+  <data key="d8">REPORTED_IN</data>
+  <data key="d9">reported in this paper</data>
+  <data key="d10">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+</edge>
+<edge source="Application:prediction_intermediate_conditions" target="Method:regression_function_g" id="USES:b387635ceb2d63b6">
+  <data key="d8">USES</data>
+  <data key="d9">Predictions for intermediate conditions are made using the fitted regression functions.</data>
+  <data key="d10">With the fitted regression functions, the distribution of d_Fmax and Ψ_A for intermediate feed rates or binder concentrations can be predicted</data>
+  <data key="d11">0.86</data>
+  <data key="d12">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+  <data key="d13">chunk_07eaf63ef31d9e7c</data>
+  <data key="d14">15</data>
+  <data key="d15">mitra.pdf</data>
+</edge>
+<edge source="Application:prediction_intermediate_conditions" target="Variable:descriptor_d_fmax" id="MEASURES:970b05ccce3a18b2">
+  <data key="d8">MEASURES</data>
+  <data key="d9">The prediction concerns the distribution of d_Fmax at intermediate conditions.</data>
+  <data key="d10">the distribution of d_Fmax</data>
+  <data key="d11">0.8</data>
+  <data key="d12">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+  <data key="d13">chunk_07eaf63ef31d9e7c</data>
+  <data key="d14">15</data>
+  <data key="d15">mitra.pdf</data>
+</edge>
+<edge source="Application:prediction_intermediate_conditions" target="Variable:descriptor_psi_a" id="MEASURES:beb7ebdd4f2531b3">
+  <data key="d8">MEASURES</data>
+  <data key="d9">The prediction concerns the distribution of Ψ_A at intermediate conditions.</data>
+  <data key="d10">and Ψ_A</data>
+  <data key="d11">0.8</data>
+  <data key="d12">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+  <data key="d13">chunk_07eaf63ef31d9e7c</data>
+  <data key="d14">15</data>
+  <data key="d15">mitra.pdf</data>
+</edge>
+<edge source="Application:prediction_intermediate_conditions" target="Limitation:unmeasured_process_parameters" id="LIMITED_BY:ea78bd9672fb5685">
+  <data key="d8">LIMITED_BY</data>
+  <data key="d9">Predicted intermediate-condition distributions are explicitly not experimentally measured.</data>
+  <data key="d10">and they are not experimentally measured</data>
+  <data key="d11">0.82</data>
+  <data key="d12">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+  <data key="d13">chunk_07eaf63ef31d9e7c</data>
+  <data key="d14">15</data>
+  <data key="d15">mitra.pdf</data>
+</edge>
+<edge source="Limitation:unmeasured_process_parameters" target="Chunk:chunk_07eaf63ef31d9e7c" id="EVIDENCED_BY:cc69c4136914aaf9">
+  <data key="d8">EVIDENCED_BY</data>
+  <data key="d9">supported by chunk</data>
+  <data key="d10">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+</edge>
+<edge source="Limitation:unmeasured_process_parameters" target="Paper:mitra" id="REPORTED_IN:e38b8cf1267d6a31">
+  <data key="d8">REPORTED_IN</data>
+  <data key="d9">reported in this paper</data>
+  <data key="d10">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+</edge>
+<edge source="Descriptor:feed_rate_range_11_20" target="Chunk:chunk_07eaf63ef31d9e7c" id="EVIDENCED_BY:a015df40356f534a">
+  <data key="d8">EVIDENCED_BY</data>
+  <data key="d9">supported by chunk</data>
+  <data key="d10">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+</edge>
+<edge source="Descriptor:feed_rate_range_11_20" target="Paper:mitra" id="REPORTED_IN:7911bdb465acfe4a">
+  <data key="d8">REPORTED_IN</data>
+  <data key="d9">reported in this paper</data>
+  <data key="d10">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+</edge>
+<edge source="Descriptor:binder_concentration_fixed_0_8wtpct" target="Chunk:chunk_07eaf63ef31d9e7c" id="EVIDENCED_BY:12d973e1eda2c213">
+  <data key="d8">EVIDENCED_BY</data>
+  <data key="d9">supported by chunk</data>
+  <data key="d10">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+</edge>
+<edge source="Descriptor:binder_concentration_fixed_0_8wtpct" target="Paper:mitra" id="REPORTED_IN:9419ee61e82fc6a2">
+  <data key="d8">REPORTED_IN</data>
+  <data key="d9">reported in this paper</data>
+  <data key="d10">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.15 page_text chunk_07eaf63ef31d9e7c</data>
+</edge>
+<edge source="Chunk:chunk_292a513b17ac9374" target="Paper:mitra" id="PART_OF:chunk_292a513b17ac9374">
+  <data key="d8">PART_OF</data>
+  <data key="d9">chunk belongs to paper</data>
+  <data key="d10">mitra.pdf p.9 page_text chunk_292a513b17ac9374</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.9 page_text chunk_292a513b17ac9374</data>
+</edge>
+<edge source="Document:mitra_p9_chunk_292a" target="Chunk:chunk_292a513b17ac9374" id="EVIDENCED_BY:fb6e87b66666a304">
+  <data key="d8">EVIDENCED_BY</data>
+  <data key="d9">supported by chunk</data>
+  <data key="d10">mitra.pdf p.9 page_text chunk_292a513b17ac9374</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.9 page_text chunk_292a513b17ac9374</data>
+</edge>
+<edge source="Document:mitra_p9_chunk_292a" target="Paper:mitra" id="REPORTED_IN:1b3b1e67afd0f6bc">
+  <data key="d8">REPORTED_IN</data>
+  <data key="d9">reported in this paper</data>
+  <data key="d10">mitra.pdf p.9 page_text chunk_292a513b17ac9374</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.9 page_text chunk_292a513b17ac9374</data>
+</edge>
+<edge source="Document:mitra_p9_chunk_292a" target="Equation:eq2_aspect_ratio" id="MENTIONS:4069120b183b44a8">
+  <data key="d8">MENTIONS</data>
+  <data key="d9">The document chunk includes Equation (2) for aspect ratio.</data>
+  <data key="d10">Ψ = Fmin. (2)</data>
+  <data key="d11">0.9</data>
+  <data key="d12">mitra.pdf p.9 page_text chunk_292a513b17ac9374</data>
+  <data key="d13">chunk_292a513b17ac9374</data>
+  <data key="d14">9</data>
+  <data key="d15">mitra.pdf</data>
+</edge>
+<edge source="Document:mitra_p9_chunk_292a" target="Method:parametric_modeling" id="MENTIONS:9fa2aa4aa0e0df7c">
+  <data key="d8">MENTIONS</data>
+  <data key="d9">The document chunk introduces parametric modeling and prediction of descriptor distributions.</data>
+  <data key="d10">2.7. ParametricModelingandPredictionofDescriptorDistributions</data>
+  <data key="d11">0.95</data>
+  <data key="d12">mitra.pdf p.9 page_text chunk_292a513b17ac9374</data>
+  <data key="d13">chunk_292a513b17ac9374</data>
+  <data key="d14">9</data>
+  <data key="d15">mitra.pdf</data>
+</edge>
+<edge source="Concept:granule_morphology" target="Chunk:chunk_292a513b17ac9374" id="EVIDENCED_BY:15f37e76976a4780">
+  <data key="d8">EVIDENCED_BY</data>
+  <data key="d9">supported by chunk</data>
+  <data key="d10">mitra.pdf p.9 page_text chunk_292a513b17ac9374</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.9 page_text chunk_292a513b17ac9374</data>
+</edge>
+<edge source="Concept:granule_morphology" target="Paper:mitra" id="REPORTED_IN:002b507ceeb2d010">
+  <data key="d8">REPORTED_IN</data>
+  <data key="d9">reported in this paper</data>
+  <data key="d10">mitra.pdf p.9 page_text chunk_292a513b17ac9374</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.9 page_text chunk_292a513b17ac9374</data>
+</edge>
+<edge source="Variable:feret_min" target="Chunk:chunk_292a513b17ac9374" id="EVIDENCED_BY:72c042f7d2a31538">
+  <data key="d8">EVIDENCED_BY</data>
+  <data key="d9">supported by chunk</data>
+  <data key="d10">mitra.pdf p.9 page_text chunk_292a513b17ac9374</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.9 page_text chunk_292a513b17ac9374</data>
+</edge>
+<edge source="Variable:feret_min" target="Paper:mitra" id="REPORTED_IN:8fe07af816ea7f85">
+  <data key="d8">REPORTED_IN</data>
+  <data key="d9">reported in this paper</data>
+  <data key="d10">mitra.pdf p.9 page_text chunk_292a513b17ac9374</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.9 page_text chunk_292a513b17ac9374</data>
+</edge>
+<edge source="Variable:feret_min" target="Descriptor:robust_orientation_independent" id="SUPPORTS:917796a067b55d72">
+  <data key="d8">SUPPORTS</data>
+  <data key="d9">Using the real minimum Feret diameter is stated to ensure robustness and orientation-independent calculations.</data>
+  <data key="d10">usedinsteadoftheFeretdiameterperpendiculartod toensurerobustnessandorientation-independentcalculations</data>
+  <data key="d11">0.85</data>
+  <data key="d12">mitra.pdf p.9 page_text chunk_292a513b17ac9374</data>
+  <data key="d13">chunk_292a513b17ac9374</data>
+  <data key="d14">9</data>
+  <data key="d15">mitra.pdf</data>
+</edge>
+<edge source="Variable:feret_max" target="Chunk:chunk_292a513b17ac9374" id="EVIDENCED_BY:bf94a76dba2b95b1">
+  <data key="d8">EVIDENCED_BY</data>
+  <data key="d9">supported by chunk</data>
+  <data key="d10">mitra.pdf p.9 page_text chunk_292a513b17ac9374</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.9 page_text chunk_292a513b17ac9374</data>
+</edge>
+<edge source="Variable:feret_max" target="Paper:mitra" id="REPORTED_IN:f6821d2fa060a5ad">
+  <data key="d8">REPORTED_IN</data>
+  <data key="d9">reported in this paper</data>
+  <data key="d10">mitra.pdf p.9 page_text chunk_292a513b17ac9374</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.9 page_text chunk_292a513b17ac9374</data>
+</edge>
+<edge source="Variable:diameter_d" target="Chunk:chunk_292a513b17ac9374" id="EVIDENCED_BY:9e3ae69fdcc9be0c">
+  <data key="d8">EVIDENCED_BY</data>
+  <data key="d9">supported by chunk</data>
+  <data key="d10">mitra.pdf p.9 page_text chunk_292a513b17ac9374</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.9 page_text chunk_292a513b17ac9374</data>
+</edge>
+<edge source="Variable:diameter_d" target="Paper:mitra" id="REPORTED_IN:a0ec24b91f6efcbe">
+  <data key="d8">REPORTED_IN</data>
+  <data key="d9">reported in this paper</data>
+  <data key="d10">mitra.pdf p.9 page_text chunk_292a513b17ac9374</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.9 page_text chunk_292a513b17ac9374</data>
+</edge>
+<edge source="Variable:diameter_d" target="Concept:granule_morphology" id="APPLIES_TO:74275de6ec056ade">
+  <data key="d8">APPLIES_TO</data>
+  <data key="d9">Diameter descriptor d is used together with aspect ratio for morphology characterization.</data>
+  <data key="d10">Thesetwodescriptors(d andΨ )togetherprovideasimplebuteffectivecharacterizationofthegranule’smorphology.</data>
+  <data key="d11">0.85</data>
+  <data key="d12">mitra.pdf p.9 page_text chunk_292a513b17ac9374</data>
+  <data key="d13">chunk_292a513b17ac9374</data>
+  <data key="d14">9</data>
+  <data key="d15">mitra.pdf</data>
+</edge>
+<edge source="Variable:aspect_ratio_psi" target="Chunk:chunk_292a513b17ac9374" id="EVIDENCED_BY:7e5ce3aa95615354">
+  <data key="d8">EVIDENCED_BY</data>
+  <data key="d9">supported by chunk</data>
+  <data key="d10">mitra.pdf p.9 page_text chunk_292a513b17ac9374</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.9 page_text chunk_292a513b17ac9374</data>
+</edge>
+<edge source="Variable:aspect_ratio_psi" target="Paper:mitra" id="REPORTED_IN:a231c5bdd6a43716">
+  <data key="d8">REPORTED_IN</data>
+  <data key="d9">reported in this paper</data>
+  <data key="d10">mitra.pdf p.9 page_text chunk_292a513b17ac9374</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.9 page_text chunk_292a513b17ac9374</data>
+</edge>
+<edge source="Variable:aspect_ratio_psi" target="Concept:shape_compactness_elongation" id="MEASURES:d7b17f2974a52a8c">
+  <data key="d8">MEASURES</data>
+  <data key="d9">Aspect ratio indicates compactness or elongation of a 2D silhouette.</data>
+  <data key="d10">indicatesthecompactnessorelongation</data>
+  <data key="d11">0.9</data>
+  <data key="d12">mitra.pdf p.9 page_text chunk_292a513b17ac9374</data>
+  <data key="d13">chunk_292a513b17ac9374</data>
+  <data key="d14">9</data>
+  <data key="d15">mitra.pdf</data>
+</edge>
+<edge source="Variable:aspect_ratio_psi" target="Concept:shape_compactness_elongation" id="HAS_DESCRIPTOR:c23eee294d092880">
+  <data key="d8">HAS_DESCRIPTOR</data>
+  <data key="d9">Aspect ratio values map to compact (1) versus elongated (significantly less than 1) shapes.</data>
+  <data key="d10">Anaspectratioof1indicatesacompactshape...whereasvaluessignificantlylessthan1indicateanelongated2Dsilhouette.</data>
+  <data key="d11">0.9</data>
+  <data key="d12">mitra.pdf p.9 page_text chunk_292a513b17ac9374</data>
+  <data key="d13">chunk_292a513b17ac9374</data>
+  <data key="d14">9</data>
+  <data key="d15">mitra.pdf</data>
+</edge>
+<edge source="Variable:aspect_ratio_psi" target="Concept:granule_morphology" id="APPLIES_TO:7401191aeef17fd7">
+  <data key="d8">APPLIES_TO</data>
+  <data key="d9">Aspect ratio is used as a granule morphology descriptor.</data>
+  <data key="d10">provideasimplebuteffectivecharacterizationofthegranule’smorphology</data>
+  <data key="d11">0.75</data>
+  <data key="d12">mitra.pdf p.9 page_text chunk_292a513b17ac9374</data>
+  <data key="d13">chunk_292a513b17ac9374</data>
+  <data key="d14">9</data>
+  <data key="d15">mitra.pdf</data>
+</edge>
+<edge source="Equation:eq2_aspect_ratio" target="Chunk:chunk_292a513b17ac9374" id="EVIDENCED_BY:a37c7772667770c2">
+  <data key="d8">EVIDENCED_BY</data>
+  <data key="d9">supported by chunk</data>
+  <data key="d10">mitra.pdf p.9 page_text chunk_292a513b17ac9374</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.9 page_text chunk_292a513b17ac9374</data>
+</edge>
+<edge source="Equation:eq2_aspect_ratio" target="Paper:mitra" id="REPORTED_IN:0c28f5dc0cba6991">
+  <data key="d8">REPORTED_IN</data>
+  <data key="d9">reported in this paper</data>
+  <data key="d10">mitra.pdf p.9 page_text chunk_292a513b17ac9374</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.9 page_text chunk_292a513b17ac9374</data>
+</edge>
+<edge source="Equation:eq2_aspect_ratio" target="Variable:aspect_ratio_psi" id="MENTIONS:60aaa9739d196676">
+  <data key="d8">MENTIONS</data>
+  <data key="d9">Equation (2) provides the definition of the aspect ratio variable Ψ.</data>
+  <data key="d10">Then,theaspectratio,Ψ ,isgivenby</data>
+  <data key="d11">0.9</data>
+  <data key="d12">mitra.pdf p.9 page_text chunk_292a513b17ac9374</data>
+  <data key="d13">chunk_292a513b17ac9374</data>
+  <data key="d14">9</data>
+  <data key="d15">mitra.pdf</data>
+</edge>
+<edge source="Equation:eq2_aspect_ratio" target="Variable:feret_min" id="DERIVED_FROM:ba0b625130c0cf44">
+  <data key="d8">DERIVED_FROM</data>
+  <data key="d9">Aspect ratio is computed using the minimum Feret diameter in the numerator.</data>
+  <data key="d10">Ψ = Fmin.</data>
+  <data key="d11">0.7</data>
+  <data key="d12">mitra.pdf p.9 page_text chunk_292a513b17ac9374</data>
+  <data key="d13">chunk_292a513b17ac9374</data>
+  <data key="d14">9</data>
+  <data key="d15">mitra.pdf</data>
+</edge>
+<edge source="Equation:eq2_aspect_ratio" target="Variable:feret_max" id="DERIVED_FROM:ebeaf967c71ea6f9">
+  <data key="d8">DERIVED_FROM</data>
+  <data key="d9">Aspect ratio is computed using the maximum Feret diameter in the denominator.</data>
+  <data key="d10">Fmax</data>
+  <data key="d11">0.6</data>
+  <data key="d12">mitra.pdf p.9 page_text chunk_292a513b17ac9374</data>
+  <data key="d13">chunk_292a513b17ac9374</data>
+  <data key="d14">9</data>
+  <data key="d15">mitra.pdf</data>
+</edge>
+<edge source="Descriptor:robust_orientation_independent" target="Chunk:chunk_292a513b17ac9374" id="EVIDENCED_BY:93603b66274bcb49">
+  <data key="d8">EVIDENCED_BY</data>
+  <data key="d9">supported by chunk</data>
+  <data key="d10">mitra.pdf p.9 page_text chunk_292a513b17ac9374</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.9 page_text chunk_292a513b17ac9374</data>
+</edge>
+<edge source="Descriptor:robust_orientation_independent" target="Paper:mitra" id="REPORTED_IN:e87860cc485c121b">
+  <data key="d8">REPORTED_IN</data>
+  <data key="d9">reported in this paper</data>
+  <data key="d10">mitra.pdf p.9 page_text chunk_292a513b17ac9374</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.9 page_text chunk_292a513b17ac9374</data>
+</edge>
+<edge source="Concept:shape_compactness_elongation" target="Chunk:chunk_292a513b17ac9374" id="EVIDENCED_BY:96c7e25fdfd20a56">
+  <data key="d8">EVIDENCED_BY</data>
+  <data key="d9">supported by chunk</data>
+  <data key="d10">mitra.pdf p.9 page_text chunk_292a513b17ac9374</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.9 page_text chunk_292a513b17ac9374</data>
+</edge>
+<edge source="Concept:shape_compactness_elongation" target="Paper:mitra" id="REPORTED_IN:4153af9d1f4f9f70">
+  <data key="d8">REPORTED_IN</data>
+  <data key="d9">reported in this paper</data>
+  <data key="d10">mitra.pdf p.9 page_text chunk_292a513b17ac9374</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.9 page_text chunk_292a513b17ac9374</data>
+</edge>
+<edge source="Concept:size_distribution" target="Chunk:chunk_292a513b17ac9374" id="EVIDENCED_BY:09f1af6fcfcd94f5">
+  <data key="d8">EVIDENCED_BY</data>
+  <data key="d9">supported by chunk</data>
+  <data key="d10">mitra.pdf p.9 page_text chunk_292a513b17ac9374</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.9 page_text chunk_292a513b17ac9374</data>
+</edge>
+<edge source="Concept:size_distribution" target="Paper:mitra" id="REPORTED_IN:232b23d1c84b9162">
+  <data key="d8">REPORTED_IN</data>
+  <data key="d9">reported in this paper</data>
+  <data key="d10">mitra.pdf p.9 page_text chunk_292a513b17ac9374</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.9 page_text chunk_292a513b17ac9374</data>
+</edge>
+<edge source="Concept:shape_uniformity" target="Chunk:chunk_292a513b17ac9374" id="EVIDENCED_BY:66a09c69ea16629d">
+  <data key="d8">EVIDENCED_BY</data>
+  <data key="d9">supported by chunk</data>
+  <data key="d10">mitra.pdf p.9 page_text chunk_292a513b17ac9374</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.9 page_text chunk_292a513b17ac9374</data>
+</edge>
+<edge source="Concept:shape_uniformity" target="Paper:mitra" id="REPORTED_IN:dd438932b4363b09">
+  <data key="d8">REPORTED_IN</data>
+  <data key="d9">reported in this paper</data>
+  <data key="d10">mitra.pdf p.9 page_text chunk_292a513b17ac9374</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.9 page_text chunk_292a513b17ac9374</data>
+</edge>
+<edge source="Method:parametric_modeling" target="Chunk:chunk_292a513b17ac9374" id="EVIDENCED_BY:d8812834c14e183c">
+  <data key="d8">EVIDENCED_BY</data>
+  <data key="d9">supported by chunk</data>
+  <data key="d10">mitra.pdf p.9 page_text chunk_292a513b17ac9374</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.9 page_text chunk_292a513b17ac9374</data>
+</edge>
+<edge source="Method:parametric_modeling" target="Paper:mitra" id="REPORTED_IN:fa68e9a686839e4a">
+  <data key="d8">REPORTED_IN</data>
+  <data key="d9">reported in this paper</data>
+  <data key="d10">mitra.pdf p.9 equation_candidate chunk_073a8613a554e6ae</data>
+  <data key="d11">1.0</data>
+  <data key="d12">mitra.pdf p.9 equation_candidate chunk_073a8613a554e6ae</data>
+</edge>
+<edge source="Method:parametric_modeling" target="Dataset:descriptor_datasets_a" id="USES:830b7612a7182aa7">
+  <data key="d8">USES</data>
+  <data key="d9">Parametric modeling is applied to measured datasets of granule descriptors.</data>
+  <data key="d10">datasetsofgranuledescriptorsmeasured</data>
+  <data key="d11">0.85</data>
+  <data key="d12">mitra.pdf p.9 page_text chunk_292a513b17ac9374</data>
+  <data key="d13">chunk_292a513b17ac9374</data>
+  <data key="d14">9</data>
+  <data key="d15">mitra.pdf</data>
+</edge>
+<edge source="Method:parametric_modeling" target="Concept:parametric_density_family_f" id="USES:9d19753aea6a3250">
+  <data key="d8">USES</data>
+  <data key="d9">Parametric modeling considers a parametric family of probability densities {fθ, θ∈Θ}.</data>
+  <data key="d10">Byconsideringaparametricfamilyofprob-ability densities, {f ,θ ∈ Θ}</data>
+  <data key="d11">0.85</data>
+  <data key="d12">mitra.pdf p.9 page_text chunk_292a513b17ac9374</data>
+  <data key="d13">chunk_292a513b17ac9374</data>
+  <data key="d14">9</data>
+  <data key="d15">mitra.pdf</data>
+</edge>
+<edge source="Method:parametric_modeling" target="Variable:model_parameters_theta" id="DERIVED_FROM:ad582c2f00f06e95">
+  <data key="d8">DERIVED_FROM</data>
+  <data key="d9">Fitting densities to datasets yields a low-dimensional representation in terms of model parameters θ.</data>
+  <data key="d10">alow-dimensionalrepresentationofthedatasetsintermsofthemodelparameters,θ</data>
+  <data key="d11">0.85</data>
+  <data key="d12">mitra.pdf p.9 page_text chunk_292a513b17ac9374</data>
+  <data key="d13">chunk_292a513b17ac9374</data>
+  <data key="d14">9</data>
+  <data key="d15">mitra.pdf</data>
+</edge>
+<edge source="Method:parametric_modeling" target="Method:kde" id="COMPARES_WITH:23f235a409f23160">
+  <data key="d8">COMPARES_WITH</data>
+  <data key="d9">Parametric modeling is contrasted with non-parametric techniques such as KDEs.</data>
+  <data key="d10">advantagesovernon-parametrictechniques,suchasKDEs</data>
+  <data key="d11">0.85</data>
+  <data key="d12">mitra.pdf p.9 page_text chunk_292a513b17ac9374</data>
+  <data key="d13">chunk_292a513b17ac9374</data>
+  <data key="d14">9</data>
+  <data key="d15">mitra.pdf</data>
+</edge>
+<edge source="Method:parametric_modeling" target="Finding:advantages_parametric" id="SUPPORTS:96c43a42496dc791">
+  <data key="d8">SUPPORTS</data>
+  <data key="d9">The text lists key advantages of parametric modeling.</data>
+  <data key="d10">suchasinterpretability,dimensionalityreduction,andcomputationalefficiency

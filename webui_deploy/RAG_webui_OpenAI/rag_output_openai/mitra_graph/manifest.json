@@ -1,0 +1,17 @@
+{
+  "paper_stem": "mitra",
+  "file_name": "mitra.pdf",
+  "paper_profile": "rag_output_openai/mitra_graph/paper_profile.json",
+  "selected_kg_chunks": "rag_output_openai/mitra_graph/selected_kg_chunks.jsonl",
+  "graph_dir": "rag_output_openai/mitra_graph",
+  "graph_node_count": 164,
+  "graph_edge_count": 501,
+  "kg_chunk_limit": 8,
+  "device_mode": "openai_api",
+  "knowledge_graph_json": "rag_output_openai/mitra_graph/knowledge_graph.json",
+  "knowledge_graph_graphml": "rag_output_openai/mitra_graph/knowledge_graph.graphml",
+  "kg_nodes_csv": "rag_output_openai/mitra_graph/kg_nodes.csv",
+  "kg_edges_csv": "rag_output_openai/mitra_graph/kg_edges.csv",
+  "graph_visualization": "rag_output_openai/mitra_graph/graph_visualization.html",
+  "note": "Per-paper GraphRAG bundle. Use together with vector retrieval for best answers."
+}
