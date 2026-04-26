@@ -6,7 +6,7 @@ This package contains an OpenAI-backed version of the HybridRAG notebook.
 
 - `HybridRAG_OpenAI.ipynb` — main notebook.
 - `pdf_to_llm_open_source.py` — local PDF extraction module used by the notebook.
-- `requirements_openai_hybridrag.txt` — Python packages.
+- `requirements.txt` — Python packages.
 
 ## Setup
 
