@@ -40,4 +40,9 @@ export OPENAI_ANSWER_MODEL="gpt-5-mini"
 export OPENAI_EMBEDDING_MODEL="text-embedding-3-small"
 ```
 
-The notebook writes output to `rag_output_openai/` by default so it does not collide with older local/Ollama vector stores.
+The notebook writes output to `rag_output_openai/` by default.
+
+## Deployment in open-webui
+
+<img width="1552" height="908" alt="Screenshot 2026-04-26 at 10 33 28 PM" src="https://github.com/user-attachments/assets/15b86d7f-2df2-4a36-9f4e-2e879399b65e" />
+
